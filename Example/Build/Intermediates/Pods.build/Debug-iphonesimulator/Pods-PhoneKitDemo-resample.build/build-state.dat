@@ -1,207 +1,0 @@
-TPods-PhoneKitDemo-resample
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000537A6FED0000000000A90C10
-t1400532973
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000537A700F00000000000003B4
-t1400533007
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000537A701C000000000000019E
-t1400533020
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000537A70770000000000000ADC
-t1400533111
-s2780
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a
-t1404864505
-s14728
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o
-t1404864505
-s3528
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample.LinkFileList
-c0000000053BC87F9000000000000015C
-t1404864505
-s348
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o
-t1404864505
-s10704
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch
-t1404864505
-s577908
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch
-t1404864505
-s570256
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip/pjproject-symbol-rewrite.h
-c0000000053BC59950000000000025F7B
-t1404852629
-s155515
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-environment.h
-c0000000053BC59C800000000000012BB
-t1404852680
-s4795
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m
-c0000000053BC59C8000000000000009C
-t1404852680
-s156
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch
-c0000000053BC59C8000000000000007F
-t1404852680
-s127
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/opus/third_party/opus/config.h
-c0000000053BC59940000000000000F7B
-t1404852628
-s3963
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/include/resamplesubs.h
-c0000000053BC599600000000000002B4
-t1404852630
-s692
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resample.h
-c0000000053BC59960000000000000B06
-t1404852630
-s2822
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c
-c0000000053BC59960000000000003121
-t1404852630
-s12577
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/stddefs.h
-c0000000053BC59960000000000000203
-t1404852630
-s515
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7e1ce11bc16cb941^6ebee11bc16cb941^---0#1#1#--18"Check dependencies36"7130C908-A33A-4327-AB59-49B5BFF0E2EA-
-
-CCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557305.226141
-e426557305.288272
-r1
-xCompileC
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o
-x/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m295"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o Pods-PhoneKitDemo-resample-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilered9c3a79bf6cb941^4fcd4979bf6cb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m0000000000000000^5559"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o Pods-PhoneKitDemo-resample-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.dia -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-dummy.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample-dummy.o36"B7DFEDCF-8FC0-42BC-AAA2-F7E704994A63-
-b00AE09DA-ABF6-4744-8AF7-32DB60F5A0AD
-
-CCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s426557305.290285
-e426557305.341971
-r1
-xCompileC
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o
-x/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/include/resamplesubs.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/opus/third_party/opus/config.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/stddefs.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resample.h
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c:60:5: warning: "no small filter defined" [-W#warnings]
-o#   warning "no small filter defined"
-o    ^
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c:71:5: warning: "no large filter defined" [-W#warnings]
-o#   warning "no large filter defined"
-o    ^
-o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c279"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o resample/third_party/resample/src/resamplesubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilerd1744a79bf6cb941^07b45879bf6cb941^-414"/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c:60:5: warning: "no small filter defined" [-W#warnings]#   warning "no small filter defined"    ^/Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c:71:5: warning: "no large filter defined" [-W#warnings]#   warning "no large filter defined"    ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@25""no small filter defined"-426557305#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c0000000000000000^59#4#59#4#2164#0#18"#warning Directive--2@25""no large filter defined"-426557305#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@103"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c0000000000000000^70#4#70#4#2478#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@103"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c0000000000000000^5253"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o resample/third_party/resample/src/resamplesubs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.dia -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/resample/third_party/resample/src/resamplesubs.c -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/resamplesubs.o36"05A61599-686B-48CD-9653-0DD616121A2D-
-b00AE09DA-ABF6-4744-8AF7-32DB60F5A0AD
-
-CLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a normal i386
-s426557305.344991
-e426557305.355249
-r1
-xLibtool
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a normal i386122"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a normal i38660ab5879bf6cb941^f4fb5a79bf6cb941^---0#0#1#--1066"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a normal i386    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -filelist /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Objects-normal/i386/Pods-PhoneKitDemo-resample.LinkFileList -framework Foundation -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a36"427C796D-C47A-4022-8BC3-C18090CDD2CE-
-b00AE09DA-ABF6-4744-8AF7-32DB60F5A0AD
-
-CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557305.063066
-e426557305.169671
-r1
-xProcessPCH
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch
-xPods-PhoneKitDemo-resample-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-environment.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip/pjproject-symbol-rewrite.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Pods-PhoneKitDemo-resample-prefix.pch303"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercb4d1079bf6cb941^69702b79bf6cb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch0000000000000000^5390"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.dia -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.d -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-eqevqibgoayunwccmpruovzkzieg/Pods-PhoneKitDemo-resample-prefix.pch.pch36"4E07478C-547D-4DFF-9260-68EE0766CC94-
-b00AE09DA-ABF6-4744-8AF7-32DB60F5A0AD
-
-CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s426557305.167319
-e426557305.222313
-r1
-xProcessPCH
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch
-xPods-PhoneKitDemo-resample-prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-environment.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip/pjproject-symbol-rewrite.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile Pods-PhoneKitDemo-resample-prefix.pch293"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler09fb2a79bf6cb941^eca63879bf6cb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch0000000000000000^5136"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/Pods-PhoneKitDemo-resample-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-resample.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.dia -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.d -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-resample-prefix.pch -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-gftkxrnsvsqdyxbydsasxzrsrouk/Pods-PhoneKitDemo-resample-prefix.pch.pch36"7907E1E1-3884-4C21-8E75-DB0747844039-
-b00AE09DA-ABF6-4744-8AF7-32DB60F5A0AD
-
-CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-alifqwaimbfpuxgzdfewcdartjul/Index/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-adidylngzyzedxbsghwuvvnaewwg_ast/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-alifqwaimbfpuxgzdfewcdartjul/Index/PrecompiledHeaders/Pods-PhoneKitDemo-resample-prefix-bslorydueugrizfuukrrnoqjelvk_ast/Pods-PhoneKitDemo-resample-prefix.pch.pch Pods-PhoneKitDemo-resample-prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-

@@ -40,7 +40,7 @@
 		261A4D3460DD4A56A56D11D5 /* libPods-PhoneKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhoneKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2BB42B29BD44CCABB93461 /* Pods-PhoneKitDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneKitDemo.xcconfig"; path = "Pods/Pods-PhoneKitDemo.xcconfig"; sourceTree = "<group>"; };
 		429FCF9B1634494487C56A0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* PhoneKitDemoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneKitDemoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* PhoneKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -109,7 +109,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* PhoneKitDemoDemo.app */,
+				6003F58A195388D20070C39A /* PhoneKitDemo.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -203,7 +203,7 @@
 			);
 			name = PhoneKitDemo;
 			productName = PhoneKit;
-			productReference = 6003F58A195388D20070C39A /* PhoneKitDemoDemo.app */;
+			productReference = 6003F58A195388D20070C39A /* PhoneKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Tests */ = {
@@ -494,7 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneKitDemo/PhoneKitDemo-Prefix.pch";
 				INFOPLIST_FILE = "PhoneKitDemo/PhoneKitDemo-Info.plist";
-				PRODUCT_NAME = PhoneKitDemoDemo;
+				PRODUCT_NAME = PhoneKitDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -508,7 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhoneKitDemo/PhoneKitDemo-Prefix.pch";
 				INFOPLIST_FILE = "PhoneKitDemo/PhoneKitDemo-Info.plist";
-				PRODUCT_NAME = PhoneKitDemoDemo;
+				PRODUCT_NAME = PhoneKitDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

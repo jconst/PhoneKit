@@ -1,123 +1,0 @@
-TPods-PhoneKitDemo-OpenSSL
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch Pods-PhoneKitDemo-OpenSSL-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000537A6FED0000000000A90C10
-t1400532973
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000537A700F00000000000003B4
-t1400533007
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000537A701C000000000000019E
-t1400533020
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000537A70770000000000000ADC
-t1400533111
-s2780
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a
-t1404864503
-s3840
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o
-t1404864503
-s3520
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL.LinkFileList
-c0000000053BC87F700000000000000B6
-t1404864503
-s182
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch
-t1404864503
-s577628
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip/pjproject-symbol-rewrite.h
-c0000000053BC59950000000000025F7B
-t1404852629
-s155515
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m
-c0000000053BC59C7000000000000009A
-t1404852679
-s154
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-prefix.pch
-c0000000053BC59C700000000000000AB
-t1404852679
-s171
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-environment.h
-c0000000053BC59C800000000000012BB
-t1404852680
-s4795
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa29ada1bc16cb941^3a76dc1bc16cb941^---0#1#1#--18"Check dependencies36"40565E77-5947-4B72-AAA6-DEA8ABDD4540-
-
-CCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557303.370726
-e426557303.450967
-r1
-xCompileC
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o
-x/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m292"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o Pods-PhoneKitDemo-OpenSSL-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler280f5f77bf6cb941^a9887377bf6cb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m0000000000000000^5363"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o Pods-PhoneKitDemo-OpenSSL-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.dia -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-dummy.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL-dummy.o36"24BBFCAB-B3ED-443D-BABC-D1C94D0664E1-
-bFEF4CA13-2CAF-425B-8AF0-37D7CE54D78A
-
-CLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a normal i386
-s426557303.452759
-e426557303.470534
-r1
-xLibtool
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a normal i386121"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a normal i386c0067477bf6cb941^cfc07877bf6cb941^---0#0#1#--1128"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a normal i386    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -L/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/lib-ios -filelist /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Objects-normal/i386/Pods-PhoneKitDemo-OpenSSL.LinkFileList -framework Foundation -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a36"A8B3F5E0-A974-4270-8668-DF9EF641F930-
-bFEF4CA13-2CAF-425B-8AF0-37D7CE54D78A
-
-CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch Pods-PhoneKitDemo-OpenSSL-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557303.233113
-e426557303.366822
-r1
-xProcessPCH
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch
-xPods-PhoneKitDemo-OpenSSL-prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-prefix.pch
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-environment.h
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip/pjproject-symbol-rewrite.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Pods-PhoneKitDemo-OpenSSL-prefix.pch300"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch Pods-PhoneKitDemo-OpenSSL-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera1f63b77bf6cb941^fb076177bf6cb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-prefix.pch0000000000000000^5196"ProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch Pods-PhoneKitDemo-OpenSSL-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/Pods-PhoneKitDemo-OpenSSL-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/BuildHeaders/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo-OpenSSL.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.dia -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.d -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-OpenSSL-prefix.pch -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gcaqspiosvammfadtjjhjkethicd/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch36"6FBD96E2-260F-4E27-871D-08CFECF9A5FB-
-bFEF4CA13-2CAF-425B-8AF0-37D7CE54D78A
-
-CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-alifqwaimbfpuxgzdfewcdartjul/Index/PrecompiledHeaders/Pods-PhoneKitDemo-OpenSSL-prefix-gablybsqnvbwvlevoxxujcroaftz_ast/Pods-PhoneKitDemo-OpenSSL-prefix.pch.pch Pods-PhoneKitDemo-OpenSSL-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-

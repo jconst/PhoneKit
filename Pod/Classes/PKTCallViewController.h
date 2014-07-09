@@ -2,16 +2,11 @@
 #import "JCDialPad.h"
 #import "PKTPhone.h"
 
-@interface PKTCallViewController : UIViewController <JCDialPadDelegate>
+@interface PKTCallViewController : UIViewController <JCDialPadDelegate, PKTPhoneDelegate>
 
-@property (weak, nonatomic  ) PKTPhone *phone;
-@property (nonatomic, strong) UILabel  * callStatusLabel;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) UILabel  *callStatusLabel;
 
-+ (instancetype)presentCallViewWithNumber:(NSString *)number unanswered:(BOOL)unanswered phone:(PKTPhone *)phone;
-
-- (void)callStarted:(NSString*)number unanswered:(BOOL)unanswered;
-- (void)callConnected;
-- (void)callEnded;
 - (void)setMainText:(NSString *)text;
 
 @end

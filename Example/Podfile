@@ -1,5 +1,6 @@
 target 'PhoneKitDemo', :exclusive => true do
   pod "PhoneKit", :path => "../"
+  pod "AFNetworking"
 end
 
 target 'Tests', :exclusive => true do

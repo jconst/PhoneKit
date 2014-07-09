@@ -1,574 +1,0 @@
-TPhoneKitDemo
-v6
-r1
-cCheck dependencies
-cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
-cProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch PhoneKitDemo/PhoneKitDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo normal i386
-cCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
-cCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
-cCopyStringsFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKitDemo/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets
-cProcessInfoPlistFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist
-cGenerateDSYMFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
-cPhaseScriptExecution Copy\ Pods\ Resources /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh
-cTouch /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c00000000537A700F00000000000003B4
-t1400533007
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000537A701C000000000000019E
-t1400533020
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000537A70200000000000446820
-t1400533024
-s4483104
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000537A7023000000000088D8C0
-t1400533027
-s8968384
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000537A702C0000000001F1DE10
-t1400533036
-s32628240
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000537A70770000000000000ADC
-t1400533111
-s2780
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app
-t1404864928
-s1156
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM
-t2
-s0
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Base.lproj/Main_iPad.storyboardc
-t1404864927
-s170
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Base.lproj/Main_iPhone.storyboardc
-t1404864927
-s170
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist
-t1404864928
-s1318
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
-t1404864924
-s6311564
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PkgInfo
-t1404864928
-s8
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings
-t1404864927
-s42
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKit.a
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a
-c0000000053BC880F0000000000D1F240
-t1404864527
-s13759040
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o
-t1404864728
-s62520
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o
-t1404864728
-s39040
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PhoneKitDemoDemo.LinkFileList
-c0000000053BC880F00000000000001D9
-t1404864527
-s473
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o
-t1404864728
-s3556
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh
-c0000000053BC880F000000000000003C
-t1404864527
-s60
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
-c0000000053BC880F0000000000000103
-t1404864527
-s259
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_dependencies.txt
-t1404864928
-s396
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_generated_info.plist
-t1404864928
-s525
-
-N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch
-t1404864527
-s126816
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
-c0000000053BC45390000000000000716
-t1404847417
-s1814
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
-c0000000053BC46F5000000000000070B
-t1404847861
-s1803
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets
-c0000000053BC45390000000000000088
-t1404847417
-s136
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.h
-c0000000053BC45390000000000000125
-t1404847417
-s293
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m
-c0000000053BC88D700000000000007EA
-t1404864727
-s2026
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.h
-c0000000053BC453900000000000000F1
-t1404847417
-s241
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m
-c0000000053BC8452000000000000025C
-t1404863570
-s604
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist
-c0000000053BC4539000000000000063A
-t1404847417
-s1594
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Prefix.pch
-c0000000053BC45390000000000000158
-t1404847417
-s344
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/en.lproj/InfoPlist.strings
-c0000000053BC4539000000000000002D
-t1404847417
-s45
-
-N/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m
-c0000000053BC4539000000000000016B
-t1404847417
-s363
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/main.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m
-r0
-
-CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf9860e1cc16cb941^65010f1cc16cb941^---0#1#1#--18"Check dependencies36"EDA7F2F8-5A6F-4195-8C9C-FD8B3FC910E9-
-
-CCompileAssetCatalog /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/Images.xcassets
-r0
-
-CCompileAssetCatalog /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets
-s426557727.803185
-e426557728.375928
-r1
-xCompileAssetCatalog
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets
-o2014-07-08 17:15:28.163 IBCocoaTouchImageCatalogTool[19432:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/LaunchImage-700-568h@2x.png
-o/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Assets.car
-o/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CompileAssetCatalog Build/Debug-iphonesimulator/PhoneKitDemoDemo.app PhoneKitDemo/Images.xcassets97"CompileAssetCatalog Build/Debug-iphonesimulator/PhoneKitDemoDemo.app PhoneKitDemo/Images.xcassets9baccd1fc16cb941^573d6020c16cb941^-656"2014-07-08 17:15:28.163 IBCocoaTouchImageCatalogTool[19432:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/LaunchImage-700-568h@2x.png/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Assets.car/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@79"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets/0000000000000000^1209"CompileAssetCatalog Build/Debug-iphonesimulator/PhoneKitDemoDemo.app PhoneKitDemo/Images.xcassets    cd /Users/jconstantakis/Code/PhoneKit/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets36"61C67962-AC33-4B01-86D7-6D7263C6935C-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557478.335290
-e426557478.346087
-r0
-xCompileC
-xBuild/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m'
-oclang: error: no input files
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m232"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o PhoneKit/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler29045626c06cb941^79595f26c06cb941^-279"clang: error: no such file or directory: '/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-426557478#18446744073709551615#0#-2#--20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation3@88"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m003488d4dcffdf42^6885"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o PhoneKit/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.dia -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTAppDelegate.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o36"D35102DC-AEF0-4F0E-9B62-61E6900D8A5F-
-bEDF502DB-F2F0-4192-B51D-E66D6020CB43
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557528.585155
-e426557528.722008
-r1
-xCompileC
-xBuild/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m223"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4f89558c06cb941^c7d5b858c06cb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m0000000000000000^6867"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.dia -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o36"A394803D-6521-4EFD-B471-B62EB42855A7-
-b3E39997C-7EFE-49B6-B032-566CC0304361
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557478.335861
-e426557478.346125
-r0
-xCompileC
-xBuild/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m'
-oclang: error: no input files
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m238"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o PhoneKit/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2d225626c06cb941^58555f26c06cb941^-282"clang: error: no such file or directory: '/Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-426557478#18446744073709551615#0#-2#--20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation3@91"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m003488d4dcffdf42^6903"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o PhoneKit/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.dia -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/PKTViewController.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o36"D2C88F2E-916B-49AF-9C86-5A786087A18F-
-bEDF502DB-F2F0-4192-B51D-E66D6020CB43
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557528.586915
-e426557528.705165
-r1
-xCompileC
-xBuild/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m229"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler41bc9658c06cb941^e485b458c06cb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m0000000000000000^6885"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.dia -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o36"513CB53C-4C7C-4142-8AA2-C35FE098E467-
-b3E39997C-7EFE-49B6-B032-566CC0304361
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557528.706017
-e426557528.746794
-r1
-xCompileC
-xBuild/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m203"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9aebb458c06cb941^6cb1bf58c06cb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m0000000000000000^6807"CompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -include /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.dia -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o36"BCAE653B-E152-480C-94F3-9C217E4F45A1-
-b3E39997C-7EFE-49B6-B032-566CC0304361
-
-CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
-r0
-
-CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
-r0
-
-CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
-s426557724.960085
-e426557727.801851
-r1
-xCompileStoryboard
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
-o2014-07-08 17:15:27.141 Interface Builder Cocoa Touch Tool[19428:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPad.storyboard62"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPad.storyboard1ee0f51cc16cb941^d74dcd1fc16cb941^-238"2014-07-08 17:15:27.141 Interface Builder Cocoa Touch Tool[19428:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@94"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard0000000000000000^876"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPad.storyboard    cd /Users/jconstantakis/Code/PhoneKit/Example    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Base.lproj/Main_iPad.storyboardc /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard36"4DE63634-BB12-4A3F-82A6-EF4D95B1580E-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
-s426557724.960374
-e426557727.801922
-r1
-xCompileStoryboard
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
-o2014-07-08 17:15:27.141 Interface Builder Cocoa Touch Tool[19427:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPhone.storyboard64"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPhone.storyboard5fecf51cc16cb941^9351cd1fc16cb941^-238"2014-07-08 17:15:27.141 Interface Builder Cocoa Touch Tool[19427:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@96"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard0000000000000000^882"CompileStoryboard PhoneKitDemo/Base.lproj/Main_iPhone.storyboard    cd /Users/jconstantakis/Code/PhoneKit/Example    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Base.lproj/Main_iPhone.storyboardc /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard36"A4C8C3C5-F995-4ECE-8238-79075F7CA64B-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CCopyStringsFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKit/PhoneKitDemo/en.lproj/InfoPlist.strings
-r0
-
-CCopyStringsFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKitDemo/en.lproj/InfoPlist.strings
-s426557727.802303
-e426557727.805421
-r1
-xCopyStringsFile
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings
-xPhoneKitDemo/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy PhoneKitDemo/en.lproj/InfoPlist.strings131"CopyStringsFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKitDemo/en.lproj/InfoPlist.strings4df4cd1fc16cb941^ba30ce1fc16cb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/en.lproj/InfoPlist.strings0000000000000000^611"CopyStringsFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKitDemo/en.lproj/InfoPlist.strings    cd /Users/jconstantakis/Code/PhoneKit/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj -- PhoneKitDemo/en.lproj/InfoPlist.strings36"39D2D72A-21D8-4B80-A9AA-FD1693CA9A17-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CGenerateDSYMFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
-s426557728.380786
-e426557728.793225
-r1
-xGenerateDSYMFile
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generate /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM136"GenerateDSYMFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemob98a6120c16cb941^1b12cb20c16cb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM003488d4dcffdf42^691"GenerateDSYMFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo    cd /Users/jconstantakis/Code/PhoneKit/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM36"13F9B4FE-CB0E-4EB3-88CE-F6471B2153C5-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CLd /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo normal i386
-s426557724.089007
-e426557724.958464
-r1
-xLd
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
-xnormal
-xi386
-d/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PhoneKitDemoDemo.LinkFileList
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
-d/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTAppDelegate.o
-d/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PKTViewController.o
-d/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/main.o
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/lib-ios/libcrypto.a
-d/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/lib-ios/libssl.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
-d/usr/lib/libSystem.B.dylib
-d/usr/lib/system/libcache.dylib
-d/usr/lib/system/libcommonCrypto.dylib
-d/usr/lib/system/libcompiler_rt.dylib
-d/usr/lib/system/libcopyfile.dylib
-d/usr/lib/system/libcorecrypto.dylib
-d/usr/lib/system/libdyld.dylib
-d/usr/lib/system/libkeymgr.dylib
-d/usr/lib/system/liblaunch.dylib
-d/usr/lib/system/libmacho.dylib
-d/usr/lib/system/libquarantine.dylib
-d/usr/lib/system/libremovefile.dylib
-d/usr/lib/system/libsystem_asl.dylib
-d/usr/lib/system/libsystem_blocks.dylib
-d/usr/lib/system/libsystem_c.dylib
-d/usr/lib/system/libsystem_configuration.dylib
-d/usr/lib/system/libsystem_dnssd.dylib
-d/usr/lib/system/libsystem_info.dylib
-d/usr/lib/system/libsystem_kernel.dylib
-d/usr/lib/system/libsystem_m.dylib
-d/usr/lib/system/libsystem_malloc.dylib
-d/usr/lib/system/libsystem_notify.dylib
-d/usr/lib/system/libsystem_platform.dylib
-d/usr/lib/system/libsystem_pthread.dylib
-d/usr/lib/system/libsystem_sandbox.dylib
-d/usr/lib/system/libunc.dylib
-d/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo80"Ld Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo normal i386a9de161cc16cb941^895ff51cc16cb941^---0#0#1#--1725"Ld Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo normal i386    cd /Users/jconstantakis/Code/PhoneKit/Example    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -L/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/lib-ios -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -filelist /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PhoneKitDemoDemo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -lcrypto -lssl -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework CoreTelephony -framework CoreText -framework QuartzCore -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -lPods-PhoneKitDemo -Xlinker -dependency_info -Xlinker /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Objects-normal/i386/PhoneKitDemoDemo_dependency_info.dat -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo36"B56696E0-E611-4897-86B8-FE09D25A4C53-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
-s426557724.060503
-e426557724.086302
-r1
-xPhaseScriptExecution
-xCheck Pods Manifest.lock
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'162"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.shde73101cc16cb941^b398181cc16cb941^---0#0#1#--386"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh    cd /Users/jconstantakis/Code/PhoneKit/Example    /bin/sh -c /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh36"0FD16DEB-9C0B-4422-BD7F-1DBC6DF060AA-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CPhaseScriptExecution Copy\ Pods\ Resources /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh
-s426557728.794526
-e426557730.513862
-r1
-xPhaseScriptExecution
-xCopy Pods Resources
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo-Social.otf
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo.otf
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/fontawesome.ttf
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/iconic.otf
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/Entypo.strings
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/EntypoSocial.strings
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular+Deprecation.strings
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular.strings
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/IconicStroke.strings
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/disconnect.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_0.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_1.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_2.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_3.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_4.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_5.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_6.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_7.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_8.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_9.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_hash.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_star.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/incoming.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/outgoing.wav
-o/Users/jconstantakis/Code/PhoneKit/Example/Pods/libPhoneNumber-iOS/libPhoneNumber/Metadata Classes/NBPhoneNumberMetadata.plist
-obuilding file list ... done
-oEntypo-Social.otf
-oEntypo.otf
-oEntypo.strings
-oEntypoSocial.strings
-oFontAwesomeRegular+Deprecation.strings
-oFontAwesomeRegular.strings
-oIconicStroke.strings
-oNBPhoneNumberMetadata.plist
-odisconnect.wav
-odtmf_0.wav
-odtmf_1.wav
-odtmf_2.wav
-odtmf_3.wav
-odtmf_4.wav
-odtmf_5.wav
-odtmf_6.wav
-odtmf_7.wav
-odtmf_8.wav
-odtmf_9.wav
-odtmf_hash.wav
-odtmf_star.wav
-ofontawesome.ttf
-oiconic.otf
-oincoming.wav
-ooutgoing.wav
-o
-osent 1573911 bytes  received 570 bytes  3148962.00 bytes/sec
-ototal size is 1572094  speedup is 1.00
-o2014-07-08 17:15:30.427 IBCocoaTouchImageCatalogTool[19450:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Assets.car
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'157"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.shd7c3cb20c16cb941^3f8d8322c16cb941^-3537"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo-Social.otf/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo.otf/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/fontawesome.ttf/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/iconic.otf/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/Entypo.strings/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/EntypoSocial.strings/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular+Deprecation.strings/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular.strings/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/IconicStroke.strings/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/disconnect.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_0.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_1.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_2.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_3.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_4.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_5.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_6.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_7.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_8.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_9.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_hash.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_star.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/incoming.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/outgoing.wav/Users/jconstantakis/Code/PhoneKit/Example/Pods/libPhoneNumber-iOS/libPhoneNumber/Metadata Classes/NBPhoneNumberMetadata.plistbuilding file list ... doneEntypo-Social.otfEntypo.otfEntypo.stringsEntypoSocial.stringsFontAwesomeRegular+Deprecation.stringsFontAwesomeRegular.stringsIconicStroke.stringsNBPhoneNumberMetadata.plistdisconnect.wavdtmf_0.wavdtmf_1.wavdtmf_2.wavdtmf_3.wavdtmf_4.wavdtmf_5.wavdtmf_6.wavdtmf_7.wavdtmf_8.wavdtmf_9.wavdtmf_hash.wavdtmf_star.wavfontawesome.ttficonic.otfincoming.wavoutgoing.wavsent 1573911 bytes  received 570 bytes  3148962.00 bytes/sectotal size is 1572094  speedup is 1.002014-07-08 17:15:30.427 IBCocoaTouchImageCatalogTool[19450:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Assets.car56(21%IDEActivityLogMessage2@120"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo-Social.otf-426557728#0#120#-0#-----2@113"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/Entypo.otf-426557728#120#113#-0#-----2@118"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/fontawesome.ttf-426557728#233#118#-0#-----2@113"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Fonts/iconic.otf-426557728#351#113#-0#-----2@119"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/Entypo.strings-426557728#464#119#-0#-----2@125"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/EntypoSocial.strings-426557728#583#125#-0#-----2@143"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular+Deprecation.strings-426557728#708#143#-0#-----2@131"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/FontAwesomeRegular.strings-426557728#851#131#-0#-----2@125"/Users/jconstantakis/Code/PhoneKit/Example/Pods/FontasticIcons/FontasticIcons/Sources/Resources/Strings/IconicStroke.strings-426557728#982#125#-0#-----2@97"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/disconnect.wav-426557728#1107#97#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_0.wav-426557728#1204#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_1.wav-426557728#1297#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_2.wav-426557728#1390#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_3.wav-426557728#1483#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_4.wav-426557728#1576#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_5.wav-426557728#1669#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_6.wav-426557728#1762#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_7.wav-426557728#1855#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_8.wav-426557728#1948#93#-0#-----2@93"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_9.wav-426557728#2041#93#-0#-----2@96"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_hash.wav-426557728#2134#96#-0#-----2@96"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/dtmf_star.wav-426557728#2230#96#-0#-----2@95"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/incoming.wav-426557728#2326#95#-0#-----2@95"/Users/jconstantakis/Code/PhoneKit/Example/Pods/TwilioSDK/sdk/TwilioSDK/Resources/outgoing.wav-426557728#2421#95#-0#-----2@127"/Users/jconstantakis/Code/PhoneKit/Example/Pods/libPhoneNumber-iOS/libPhoneNumber/Metadata Classes/NBPhoneNumberMetadata.plist-426557728#2516#127#-0#-----2@28"building file list ... done-426557728#2643#28#-0#-----2@18"Entypo-Social.otf-426557728#2671#18#-0#-----2@11"Entypo.otf-426557728#2689#11#-0#-----2@15"Entypo.strings-426557728#2700#15#-0#-----2@21"EntypoSocial.strings-426557728#2715#21#-0#-----2@39"FontAwesomeRegular+Deprecation.strings-426557728#2736#39#-0#-----2@27"FontAwesomeRegular.strings-426557728#2775#27#-0#-----2@21"IconicStroke.strings-426557728#2802#21#-0#-----2@28"NBPhoneNumberMetadata.plist-426557728#2823#28#-0#-----2@15"disconnect.wav-426557728#2851#15#-0#-----2@11"dtmf_0.wav-426557728#2866#11#-0#-----2@11"dtmf_1.wav-426557728#2877#11#-0#-----2@11"dtmf_2.wav-426557728#2888#11#-0#-----2@11"dtmf_3.wav-426557728#2899#11#-0#-----2@11"dtmf_4.wav-426557728#2910#11#-0#-----2@11"dtmf_5.wav-426557728#2921#11#-0#-----2@11"dtmf_6.wav-426557728#2932#11#-0#-----2@11"dtmf_7.wav-426557728#2943#11#-0#-----2@11"dtmf_8.wav-426557728#2954#11#-0#-----2@11"dtmf_9.wav-426557728#2965#11#-0#-----2@14"dtmf_hash.wav-426557728#2976#14#-0#-----2@14"dtmf_star.wav-426557728#2990#14#-0#-----2@16"fontawesome.ttf-426557728#3004#16#-0#-----2@11"iconic.otf-426557728#3020#11#-0#-----2@13"incoming.wav-426557728#3031#13#-0#-----2@13"outgoing.wav-426557728#3044#13#-0#-----2@61"sent 1573911 bytes  received 570 bytes  3148962.00 bytes/sec-426557728#3058#61#-0#-----2@39"total size is 1572094  speedup is 1.00-426557728#3119#39#-0#-----2@232"2014-07-08 17:15:30.427 IBCocoaTouchImageCatalogTool[19450:303] CFPreferences: user home directory at file:///Users/jconstantakis/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-426557730#3158#232#-0#-----2@43"/* com.apple.actool.compilation-results */-426557730#3390#43#-0#-----2@103"/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Assets.car-426557730#3433#103#-0#-----0#0#1#--381"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh    cd /Users/jconstantakis/Code/PhoneKit/Example    /bin/sh -c /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/Script-27C526A09DDE475EA7C50866.sh36"4FC50106-3219-4EB4-A12D-C9583C5AEA38-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CProcessInfoPlistFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist
-s426557728.376749
-e426557728.380267
-r1
-xProcessInfoPlistFile
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist
-x/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Process /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist117"ProcessInfoPlistFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist PhoneKitDemo/PhoneKitDemo-Info.plistc2856020c16cb941^d5596120c16cb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist0000000000000000^932"ProcessInfoPlistFile Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist PhoneKitDemo/PhoneKitDemo-Info.plist    cd /Users/jconstantakis/Code/PhoneKit/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Info.plist -genpkginfo /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/assetcatalog_generated_info.plist -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist36"78879A44-D5A7-41CE-A26F-EBC56AF93AF0-
-b51B738E5-AA1E-4AD0-88B3-07A5929E390F
-
-CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch PhoneKitDemo/PhoneKitDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s426557327.607660
-e426557327.650052
-r1
-xProcessPCH
-x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch
-xPhoneKitDemo/PhoneKitDemo-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile PhoneKitDemo/PhoneKitDemo-Prefix.pch231"ProcessPCH Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch PhoneKitDemo/PhoneKitDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler42af9b8fbf6cb941^986aa68fbf6cb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Prefix.pch0000000000000000^6718"ProcessPCH Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch PhoneKitDemo/PhoneKitDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/PhoneKitDemoDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Headers/srtp --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.d -c /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PhoneKitDemo-Prefix.pch -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemo-Prefix-hegcccjlgbiqnjavuvudgbzmdzqw/PhoneKitDemo-Prefix.pch.pch36"B8918F8E-E73F-4D24-B79B-96F1B3DFF010-
-b7962112F-E3A0-4BCB-BEA3-A3FF946E7FC3
-
-CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-alifqwaimbfpuxgzdfewcdartjul/Index/PrecompiledHeaders/PhoneKitDemo-Prefix-fljgqhqafsutobazemmjdzffzfjx_ast/PhoneKitDemo-Prefix.pch.pch PhoneKitDemo/PhoneKitDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app
-r0
-

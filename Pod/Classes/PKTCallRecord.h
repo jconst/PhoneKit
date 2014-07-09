@@ -17,5 +17,4 @@
 @property (nonatomic, strong) NSString  *state;
 @property (nonatomic, strong) NSDate    *dateTime;
 
-
 @end
