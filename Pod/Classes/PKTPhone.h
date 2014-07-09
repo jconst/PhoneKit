@@ -6,6 +6,7 @@
 #import "PKTCallRecord.h"
 
 @protocol PKTPhoneDelegate <NSObject>
+@optional
 - (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming;
 - (void)callConnected;
 - (void)callEndedWithRecord:(PKTCallRecord *)record error:(NSError *)error;

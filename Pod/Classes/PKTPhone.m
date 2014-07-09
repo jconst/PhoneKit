@@ -44,8 +44,10 @@
         [[RACObserve(self, capabilityToken) ignore:nil] subscribeNext:^(NSString *token) {
             if (self.phoneDevice)
                 [self.phoneDevice updateCapabilityToken:token];
-            else
+            else {
                 self.phoneDevice = [[TCDevice alloc] initWithCapabilityToken:token delegate:self];
+                self.phoneDevice.incomingSoundEnabled = NO;
+            }
         }];
         
 		_speakerEnabled = NO;
@@ -322,13 +324,13 @@
 -(void)connectionDisconnected:(TCConnection*)connection error:(NSError *)error
 {
     PKTCallRecord *record = [self callRecordForConnection:connection];
-
-    if (connection == self.pendingIncomingConnection) {
-		self.pendingIncomingConnection = nil;
-	}
-	if (connection == self.activeConnection) {
+	
+    if (connection == self.activeConnection) {
 		self.activeConnection = nil;
 		self.speakerEnabled = NO;
+	}
+    if (connection == self.pendingIncomingConnection) {
+		self.pendingIncomingConnection = nil;
 	}
     
     if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
