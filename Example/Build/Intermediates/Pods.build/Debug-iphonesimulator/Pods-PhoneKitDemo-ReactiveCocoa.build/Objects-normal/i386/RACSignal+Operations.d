@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignal+Operations.m \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignal+Operations.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignal.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACStream.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDeallocating.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDescription.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCompoundDisposable.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACDisposable.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACEvent.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACGroupedSignal.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection+Private.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSerialDisposable.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignalSequence.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSequence.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACStream+Private.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber+Private.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACTuple.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACmetamacros.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACUnit.h

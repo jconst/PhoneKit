@@ -1,0 +1,187 @@
+TPods-PhoneKitDemo
+v6
+r1
+cCheck dependencies
+cCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000537A6FED0000000000A90C10
+t1400532973
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000537A700F00000000000003B4
+t1400533007
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000537A701C000000000000019E
+t1400533020
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000537A70770000000000000ADC
+t1400533111
+s2780
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-FontasticIcons.a
+c0000000053BC87F80000000000037128
+t1404864504
+s225576
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-JCDialPad.a
+c0000000053BC87F9000000000003ED40
+t1404864505
+s257344
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-OpenSSL.a
+c0000000053BC87F70000000000000F00
+t1404864503
+s3840
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-PhoneKit.a
+c0000000053BC880F00000000000462B0
+t1404864527
+s287408
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-ReactiveCocoa.a
+c0000000053BC87FF00000000002DABF0
+t1404864511
+s2993136
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-TwilioSDK.a
+c0000000053BC880E000000000014EF18
+t1404864526
+s1371928
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-libPhoneNumber-iOS.a
+c0000000053BC87F8000000000009CD00
+t1404864504
+s642304
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-milenage.a
+c0000000053BC87F80000000000007640
+t1404864504
+s30272
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a
+c0000000053BC880100000000001326B0
+t1404864513
+s1255088
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a
+c0000000053BC880B00000000005764E8
+t1404864523
+s5727464
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-resample.a
+c0000000053BC87F90000000000003988
+t1404864505
+s14728
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a
+c0000000053BC87FE000000000009BD00
+t1404864510
+s638208
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-srtp.a
+c0000000053BC87FC000000000004B908
+t1404864508
+s309512
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a
+t1404864527
+s13759040
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o
+t1404864527
+s3216
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo.LinkFileList
+c0000000053BC880F00000000000000A6
+t1404864527
+s166
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m
+c0000000053BC59C8000000000000008A
+t1404852680
+s138
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8dd20d1cc16cb941^aa0d0e1cc16cb941^---0#1#1#--18"Check dependencies36"F3271EFA-4AFC-4630-8EB4-8CC71FDDDD07-
+
+CCompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426557327.115786
+e426557327.150098
+r1
+xCompileC
+x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o
+x/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m268"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o Pods-PhoneKitDemo-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4c21d8fbf6cb941^376d268fbf6cb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m0000000000000000^6852"CompileC /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o Pods-PhoneKitDemo-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/jconstantakis/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -DPJ_NO_ASSERT=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Pods-PhoneKitDemo-generated-files.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Pods-PhoneKitDemo-own-target-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Pods-PhoneKitDemo-all-target-headers.hmap -iquote /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Pods-PhoneKitDemo-project-headers.hmap -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/FontasticIcons -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/JCDialPad -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/Kiwi -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/OpenSSL -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/PhoneKit -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/ReactiveCocoa/ReactiveCocoa -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/TwilioSDK -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/libPhoneNumber-iOS -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/milenage -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/opus -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/pjsip -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/resample -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/resample/third_party/resample/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/speex/speex -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/srtp -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/OpenSSL/include-ios -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/pjsip/pjsip/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/pjsip/pjlib/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/pjsip/pjlib-util/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/pjsip/pjnath/include -I/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/pjsip/pjmedia/include -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/DerivedSources/i386 -I/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/DerivedSources -F/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/FontasticIcons -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/JCDialPad -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/Kiwi -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/OpenSSL -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/PhoneKit -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/ReactiveCocoa/ReactiveCocoa -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/TwilioSDK -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/libPhoneNumber-iOS -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/milenage -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/opus -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/pjsip -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/resample -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/resample/third_party/resample/include -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/speex/speex -isystem /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/Headers/srtp -MMD -MT dependencies -MF /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.d --serialize-diagnostics /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.dia -c /Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKitDemo-dummy.m -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo-dummy.o36"522B42F4-46CE-4690-99F1-3A2DB76708FF-
+b3DBEC708-179F-4F3E-AC52-4C1FD285F9BC
+
+CLibtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a normal i386
+s426557327.151009
+e426557327.585817
+r1
+xLibtool
+x/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (kiss_fft.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(kiss_fft.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(kiss_fft.o) due to use of basename, truncation and blank padding
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (modes.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(modes.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(modes.o) due to use of basename, truncation and blank padding
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (sha1.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(sha1.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-srtp.a(sha1.o) due to use of basename, truncation and blank padding
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (vq.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(vq.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(vq.o) due to use of basename, truncation and blank padding
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(debug.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(alaw_ulaw.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(alsa_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_jni_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_sles_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(avi_player.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(bb10_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(conf_switch.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(converter_libswscale.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ffmpeg_util.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ffmpeg_vid_codecs.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(h263_packetizer.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(h264_packetizer.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ipp_codecs.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(legacy_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(null_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(os_info_iphone.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pa_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pjsua_vid.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pool_dbg.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(rtcp_xr.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(sip_auth_aka.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_aps_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_mda_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_vas_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symbols.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_codec.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_codec_util.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_port.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_stream.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_stream_info.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_tee.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(wmme_dev.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(vorbis_psy.o) has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a normal i386113"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a normal i38652b8268fbf6cb941^50fb958fbf6cb941^-9882"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (kiss_fft.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(kiss_fft.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(kiss_fft.o) due to use of basename, truncation and blank padding/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (modes.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(modes.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(modes.o) due to use of basename, truncation and blank padding/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (sha1.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(sha1.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-srtp.a(sha1.o) due to use of basename, truncation and blank padding/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning same member name (vq.o) in output file used for input files: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(vq.o) and: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(vq.o) due to use of basename, truncation and blank padding/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-opus.a(debug.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(alaw_ulaw.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(alsa_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_jni_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(android_sles_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(avi_player.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(bb10_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(conf_switch.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(converter_libswscale.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ffmpeg_util.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ffmpeg_vid_codecs.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(h263_packetizer.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(h264_packetizer.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(ipp_codecs.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(legacy_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(null_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(os_info_iphone.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pa_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pjsua_vid.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(pool_dbg.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(rtcp_xr.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(sip_auth_aka.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_aps_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_mda_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symb_vas_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(symbols.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_codec.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_codec_util.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_port.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_stream.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_stream_info.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(vid_tee.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-pjsip.a(wmme_dev.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo-speex.a(vorbis_psy.o) has no symbols-0#0#1#--1486"Libtool /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a normal i386    cd /Users/jconstantakis/Code/PhoneKit/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator -L/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods/OpenSSL/lib-ios -filelist /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PhoneKitDemo.build/Objects-normal/i386/Pods-PhoneKitDemo.LinkFileList -framework Foundation -lPods-PhoneKitDemo-FontasticIcons -lPods-PhoneKitDemo-JCDialPad -lPods-PhoneKitDemo-OpenSSL -lPods-PhoneKitDemo-PhoneKit -lPods-PhoneKitDemo-ReactiveCocoa -lPods-PhoneKitDemo-TwilioSDK -lPods-PhoneKitDemo-libPhoneNumber-iOS -lPods-PhoneKitDemo-milenage -lPods-PhoneKitDemo-opus -lPods-PhoneKitDemo-pjsip -lPods-PhoneKitDemo-resample -lPods-PhoneKitDemo-speex -lPods-PhoneKitDemo-srtp -o /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/libPods-PhoneKitDemo.a36"FD8E5AB4-FE25-44B0-89F0-B76BDD2A7E7E-
+b3DBEC708-179F-4F3E-AC52-4C1FD285F9BC
+
