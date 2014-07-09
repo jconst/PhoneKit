@@ -38,16 +38,16 @@
     
     NSURL *baseURL = [NSURL URLWithString:kBasicPhoneBaseURL];
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
-//    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-//    manager.responseSerializer.acceptableContentTypes =
-//        [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes =
+        [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     
 //    [manager setCredential:[NSURLCredential credentialWithUser:@"" password:@"" persistence:NSURLCredentialPersistenceForSession]];
     
     [manager GET:kLoginEndpoint parameters:@{}
     success:^(AFHTTPRequestOperation *operation, id responseObject) {
-//        NSString *token = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-        [self setupPhoneKitWithToken:responseObject[@"token"]];
+        NSString *token = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        [self setupPhoneKitWithToken:token];
         callButton.enabled = YES;
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"error: %@", error);
@@ -65,7 +65,7 @@
 
 - (void)didTapCall:(id)sender
 {
-    [[PKTPhone sharedPhone] callWithParams:@{}];
+    [[PKTPhone sharedPhone] call];
 }
 
 @end

@@ -20,15 +20,15 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec "Core" do |ss|
-    s.dependency 'TwilioSDK', '1.1.5-ce0a13e'
-    s.dependency 'ReactiveCocoa'
-    s.source_files = 'Pod/Classes/Core/'
+    ss.dependency 'TwilioSDK', '1.1.5-ce0a13e'
+    ss.dependency 'ReactiveCocoa'
+    ss.source_files = 'Pod/Classes/Core/'
   end
 
   s.subspec "UI" do |ss|
-    s.dependency 'PhoneKit/Core'
-    s.dependency 'JCDialPad'
-    s.dependency 'FontasticIcons'
-    s.source_files = 'Pod/Classes/UI/'
+    ss.dependency 'PhoneKit/Core'
+    ss.dependency 'JCDialPad'
+    ss.dependency 'FontasticIcons'
+    ss.source_files = 'Pod/Classes/UI/'
   end
 end

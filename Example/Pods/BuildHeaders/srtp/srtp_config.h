@@ -1,1 +1,0 @@
-../../srtp/third_party/build/srtp/srtp_config.h
