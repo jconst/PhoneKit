@@ -67,8 +67,8 @@
 
 - (void)present
 {
-    if (self.title) {
-        [self setMainText:self.title];
+    if (self.mainText) {
+        [self setMainText:self.mainText];
     }
  
     UIApplication *app = [UIApplication sharedApplication];

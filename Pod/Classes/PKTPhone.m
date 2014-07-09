@@ -137,7 +137,7 @@
 
 - (BOOL)hasPendingCall
 {
-    return self.pendingIncomingConnection;
+    return self.pendingIncomingConnection != nil;
 }
 
 - (PKTCallRecord *)callRecordForConnection:(TCConnection*)connection
