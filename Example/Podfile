@@ -1,0 +1,9 @@
+target 'PhoneKitDemo', :exclusive => true do
+  pod "PhoneKit", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PhoneKit", :path => "../"
+
+  pod 'Kiwi/XCTest'
+end

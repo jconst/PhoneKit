@@ -1,0 +1,2 @@
+PODS_PHONEKITDEMO_TWILIOSDK_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/pjsip/pjsip/include" "$(PODS_ROOT)/pjsip/pjlib/include" "$(PODS_ROOT)/pjsip/pjlib-util/include" "$(PODS_ROOT)/pjsip/pjnath/include" "$(PODS_ROOT)/pjsip/pjmedia/include"
+PODS_PHONEKITDEMO_TWILIOSDK_OTHER_LDFLAGS = -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework SystemConfiguration

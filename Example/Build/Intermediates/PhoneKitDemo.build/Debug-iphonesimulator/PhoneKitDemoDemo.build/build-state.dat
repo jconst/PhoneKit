@@ -1,0 +1,115 @@
+TPhoneKitDemoDemo
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
+
+N/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
+c0000000053BC52750000000000000103
+t1404850805
+s259
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PKTAppDelegate.m
+r0
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PKTViewController.m
+r0
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/main.m
+r0
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m
+r0
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m
+r0
+
+CBuild AST from /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese5f0b9f5896cb941^d5e7c6f5896cb941^-163"The file “Pods-PhoneKit.xcconfig” couldn’t be opened because there is no such file. (/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKit.xcconfig)1(21%IDEActivityLogMessage2@162"The file “Pods-PhoneKit.xcconfig” couldn’t be opened because there is no such file. (/Users/jconstantakis/Code/PhoneKit/Example/Pods/Pods-PhoneKit.xcconfig)-426543605#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"9B475ADE-CE34-4D21-B554-C0AF873930F2-
+
+CCompileAssetCatalog /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/Images.xcassets
+r0
+
+CCompileAssetCatalog /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Images.xcassets
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/PKTAppDelegate.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/PKTAppDelegate.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/PKTViewController.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/PKTViewController.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/PKTViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/main.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Objects-normal/i386/main.o /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/Base.lproj/Main_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/Base.lproj/Main_iPhone.storyboard
+r0
+
+CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/jconstantakis/Code/PhoneKit/Example/PhoneKitDemo/Base.lproj/Main_iPhone.storyboard
+r0
+
+CCopyStringsFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKit/en.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/en.lproj/InfoPlist.strings PhoneKitDemo/en.lproj/InfoPlist.strings
+r0
+
+CGenerateDSYMFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app.dSYM /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo
+r0
+
+CLd /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/PhoneKitDemoDemo normal i386
+r0
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
+s426543605.790234
+e426543605.845544
+r0
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh
+odiff: /../Podfile.lock: No such file or directory
+odiff: /Manifest.lock: No such file or directory
+oerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'166"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.shf679ccf5896cb941^5474d8f5896cb941^-212"diff: /../Podfile.lock: No such file or directorydiff: /Manifest.lock: No such file or directoryerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.3(21%IDEActivityLogMessage2@49"Diff: /../Podfile.lock: No such file or directory-426543605#0#50#-2#--29"Shell Script Invocation Error--2@47"Diff: /Manifest.lock: No such file or directory-426543605#50#48#-2#--29"Shell Script Invocation Error--2@106"The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.-426543605#98#114#-2#--29"Shell Script Invocation Error--0#0#1#--394"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh    cd /Users/jconstantakis/Code/PhoneKit/Example    /bin/sh -c /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-3DA4D0BC6BEC4B50B1DD0679.sh36"84CCC838-1D0B-4696-9AA7-8451E07F3B77-
+b2A1C8FCB-6656-4A78-B06F-2F110A36ED81
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PhoneKitDemo.build/Debug-iphonesimulator/PhoneKitDemoDemo.build/Script-27C526A09DDE475EA7C50866.sh
+r0
+
+CProcessInfoPlistFile /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app/Info.plist /Users/jconstantakis/Code/PhoneKit/Example/PhoneKit/PhoneKitDemoDemo-Info.plist
+r0
+
+CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemoDemo-Prefix-aucydfvvknanyqgxaxkpgeihizyw/PhoneKitDemoDemo-Prefix.pch.pch PhoneKit/PhoneKitDemoDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/jconstantakis/Code/PhoneKit/Example/Build/Intermediates/PrecompiledHeaders/PhoneKitDemoDemo-Prefix-eavkarhapcdiqidpkmkjzijfzkga/PhoneKitDemoDemo-Prefix.pch.pch PhoneKit/PhoneKitDemoDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-cyojsxosgsxnjqfuuglupqxcinrq/Index/PrecompiledHeaders/PhoneKitDemoDemo-Prefix-dpfkltpehofexkbonatrpnvrympq_ast/PhoneKitDemoDemo-Prefix.pch.pch PhoneKit/PhoneKitDemoDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/jconstantakis/Library/Developer/Xcode/DerivedData/PhoneKitDemo-cyojsxosgsxnjqfuuglupqxcinrq/Index/PrecompiledHeaders/PhoneKitDemoDemo-Prefix-ewtlpvccvzjaezbdlbwasecbjtzc_ast/PhoneKitDemoDemo-Prefix.pch.pch PhoneKit/PhoneKitDemoDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/jconstantakis/Code/PhoneKit/Example/Build/Debug-iphonesimulator/PhoneKitDemoDemo.app
+r0
+

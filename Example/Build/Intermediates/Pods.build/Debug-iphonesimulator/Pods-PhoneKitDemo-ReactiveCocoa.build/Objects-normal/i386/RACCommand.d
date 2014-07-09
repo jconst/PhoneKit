@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.m \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACCommand.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTScope.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACmetamacros.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSArray+RACSequenceAdditions.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDeallocating.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACDescription.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/NSObject+RACPropertySubscribing.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc/RACEXTKeyPathCoding.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACMulticastConnection.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACReplaySubject.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubject.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignal.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACStream.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSubscriber.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACScheduler.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSequence.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACSignal+Operations.h

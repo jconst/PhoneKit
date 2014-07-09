@@ -1,0 +1,8 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import "Pods-Tests-environment.h"
+#ifdef COCOAPODS_POD_AVAILABLE_pjsip
+#import "pjproject-symbol-rewrite.h"
+#endif

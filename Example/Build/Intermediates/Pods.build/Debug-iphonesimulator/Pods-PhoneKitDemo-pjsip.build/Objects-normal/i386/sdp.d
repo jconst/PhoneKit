@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/src/pjmedia/sdp.c \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include/pjmedia/sdp.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include/pjmedia/types.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include/pjmedia/config.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/config.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/config_site.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/config_site_ios.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/cc_gcc.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/os_darwinos.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/size_t.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/sock.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/types.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjmedia/include/pjmedia/errno.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/errno.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/errno.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include/pjlib-util/scanner.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include/pjlib-util/types.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include/pjlib-util/config.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/array.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/except.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/setjmp.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/log.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/os.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/string.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/string.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/pool.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/list.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/assert.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/assert.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/ctype.h \
+  /Users/jconstantakis/Code/PhoneKit/Example/Pods/pjsip/pjlib/include/pj/compat/ctype.h
