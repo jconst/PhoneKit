@@ -35,10 +35,15 @@ PODS:
     - opus/float
   - opus/float (1.0.0-twilio)
   - PhoneKit (0.1.0):
-    - FontasticIcons
-    - JCDialPad
+    - PhoneKit/Core
+    - PhoneKit/UI
+  - PhoneKit/Core (0.1.0):
     - ReactiveCocoa
     - TwilioSDK (= 1.1.5-ce0a13e)
+  - PhoneKit/UI (0.1.0):
+    - FontasticIcons
+    - JCDialPad
+    - PhoneKit/Core
   - pjsip (2.1.0-twilio):
     - milenage (= 1.0.0-twilio)
     - OpenSSL (= 1.0.1.h-twilio)
@@ -126,7 +131,7 @@ SPEC CHECKSUMS:
   milenage: ecae1d08ed63414eaee047fff18a839d996f47a5
   OpenSSL: 873f41a149163df3ae5d67c134732828e56591c7
   opus: 3e6f92cf106fe5145382a6a9739a8840ca24fd09
-  PhoneKit: f1193d252c5f628e1b9affad115e2c2fa8fb074c
+  PhoneKit: 8ec4a826f039b47ada8a52b82d4baae2df206842
   pjsip: 8050550ccc20e47f4c7896f9e08467a421b0b5ac
   ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
   resample: 31cb39144984f8e025281270ea1709b188e60f79

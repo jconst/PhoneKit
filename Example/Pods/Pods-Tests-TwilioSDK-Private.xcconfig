@@ -1,5 +1,0 @@
-#include "Pods-Tests-TwilioSDK.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/TwilioSDK" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/FontasticIcons" "${PODS_ROOT}/Headers/JCDialPad" "${PODS_ROOT}/Headers/Kiwi" "${PODS_ROOT}/Headers/OpenSSL" "${PODS_ROOT}/Headers/PhoneKit" "${PODS_ROOT}/Headers/ReactiveCocoa" "${PODS_ROOT}/Headers/ReactiveCocoa/ReactiveCocoa" "${PODS_ROOT}/Headers/TwilioSDK" "${PODS_ROOT}/Headers/libPhoneNumber-iOS" "${PODS_ROOT}/Headers/milenage" "${PODS_ROOT}/Headers/opus" "${PODS_ROOT}/Headers/pjsip" "${PODS_ROOT}/Headers/resample" "${PODS_ROOT}/Headers/resample/third_party/resample/include" "${PODS_ROOT}/Headers/speex" "${PODS_ROOT}/Headers/speex/speex" "${PODS_ROOT}/Headers/srtp" ${PODS_TESTS_TWILIOSDK_HEADER_SEARCH_PATHS}
-OTHER_LDFLAGS = -ObjC ${PODS_TESTS_TWILIOSDK_OTHER_LDFLAGS}
-PODS_ROOT = ${SRCROOT}

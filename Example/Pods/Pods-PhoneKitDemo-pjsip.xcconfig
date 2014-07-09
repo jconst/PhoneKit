@@ -1,4 +1,0 @@
-PODS_PHONEKITDEMO_PJSIP_GCC_C_LANGUAGE_STANDARD = gnu99
-PODS_PHONEKITDEMO_PJSIP_GCC_PREPROCESSOR_DEFINITIONS = PJ_NO_ASSERT=1
-PODS_PHONEKITDEMO_PJSIP_HEADER_SEARCH_PATHS = $(PODS_ROOT)/OpenSSL/include-ios $(PODS_ROOT)/pjsip/pjlib/include $(PODS_ROOT)/pjsip/pjlib-util/include $(PODS_ROOT)/pjsip/pjmedia/include $(PODS_ROOT)/pjsip/pjnath/include $(PODS_ROOT)/pjsip/pjsip/include
-PODS_PHONEKITDEMO_PJSIP_OTHER_LDFLAGS = -framework AudioToolbox -framework CFNetwork
