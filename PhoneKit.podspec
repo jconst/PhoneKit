@@ -10,31 +10,25 @@
 Pod::Spec.new do |s|
   s.name             = "PhoneKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PhoneKit."
-  s.description      = <<-DESC
-                       An optional longer description of PhoneKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PhoneKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "An extension of TwilioSDK for easily making/receiving VoIP calls from inside your iOS app!"
+  s.homepage         = "https://github.com/jconst/PhoneKit"
   s.license          = 'MIT'
-  s.author           = { "Joseph Constantakis" => "jconstantakis@twilio.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PhoneKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Joseph Constantakis" => "jcon5294@gmail.com" }
+  s.source           = { :git => "https://github.com/jconst/PhoneKit.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.dependency 'TwilioSDK', '1.1.5-ce0a13e'
-  s.dependency 'JCDialPad'
-  s.dependency 'FontasticIcons'
-  s.dependency 'ReactiveCocoa'
+  s.subspec "Core" do |ss|
+    s.dependency 'TwilioSDK', '1.1.5-ce0a13e'
+    s.dependency 'ReactiveCocoa'
+    s.source_files = 'Pod/Classes/Core/'
+  end
 
-  s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.subspec "UI" do |ss|
+    s.dependency 'PhoneKit/Core'
+    s.dependency 'JCDialPad'
+    s.dependency 'FontasticIcons'
+    s.source_files = 'Pod/Classes/UI/'
+  end
 end
