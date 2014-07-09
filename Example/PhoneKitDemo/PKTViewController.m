@@ -55,7 +55,7 @@
 {
     [PKTPhone sharedPhone].capabilityToken = token;
     self.callViewController = [PKTCallViewController new];
-    self.callViewController.title = @"Support";
+    self.callViewController.mainText = @"Support";
     [PKTPhone sharedPhone].delegate = self.callViewController;
 }
 
