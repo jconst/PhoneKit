@@ -13,11 +13,12 @@
 #import "PKTCallViewController.h"
 
 #define kBasicPhoneBaseURL @"http://localhost"
-#define kLoginEndpoint @"auth.php"
+#define kLoginEndpoint @"token"
 
 @interface PKTViewController ()
 
-@property (strong, nonatomic) PKTCallViewController *callViewController;
+@property (nonatomic, weak)   UIButton *callButton;
+@property (nonatomic, strong) PKTCallViewController *callViewController;
 
 @end
 
@@ -28,13 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    __block UIButton *callButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [callButton setTitle:@"Call Support" forState:UIControlStateNormal];
-    callButton.frame = CGRectMake(0, 0, 100, 50);
-    callButton.center = self.view.center;
-    [callButton addTarget:self action:@selector(didTapCall:) forControlEvents:UIControlEventTouchUpInside];
-    callButton.enabled = NO;
-    [self.view addSubview:callButton];
+    self.callButton.enabled = NO;
     
     NSURL *baseURL = [NSURL URLWithString:kBasicPhoneBaseURL];
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
@@ -48,7 +43,7 @@
     success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSString *token = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
         [self setupPhoneKitWithToken:token];
-        callButton.enabled = YES;
+        self.callButton.enabled = YES;
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"error: %@", error);
     }];
@@ -63,7 +58,7 @@
     [PKTPhone sharedPhone].delegate = self.callViewController;
 }
 
-- (void)didTapCall:(id)sender
+- (IBAction)didTapCall:(id)sender
 {
     [[PKTPhone sharedPhone] call];
 }
