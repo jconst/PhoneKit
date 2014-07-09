@@ -91,10 +91,10 @@
 
 - (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming
 {
+    [self present];
  	self.callStatusLabel.text = incoming ? @"incoming call" : @"connecting...";
     [self switchToPad:incoming ? self.incomingPad : self.mainPad
              animated:NO];
-    [self present];
 }
 
 - (void)callConnected

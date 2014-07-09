@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "PhoneKitDemoDemo.app"
+               BuildableName = "PhoneKitDemo.app"
                BlueprintName = "PhoneKitDemo"
                ReferencedContainer = "container:PhoneKitDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PhoneKitDemoDemo.app"
+            BuildableName = "PhoneKitDemo.app"
             BlueprintName = "PhoneKitDemo"
             ReferencedContainer = "container:PhoneKitDemo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PhoneKitDemoDemo.app"
+            BuildableName = "PhoneKitDemo.app"
             BlueprintName = "PhoneKitDemo"
             ReferencedContainer = "container:PhoneKitDemo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PhoneKitDemoDemo.app"
+            BuildableName = "PhoneKitDemo.app"
             BlueprintName = "PhoneKitDemo"
             ReferencedContainer = "container:PhoneKitDemo.xcodeproj">
          </BuildableReference>
