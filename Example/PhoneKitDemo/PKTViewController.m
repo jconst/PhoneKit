@@ -8,9 +8,16 @@
 
 #import "PKTViewController.h"
 #import "UIView+FrameAccessor.h"
+#import "AFNetworking.h"
 #import "PKTPhone.h"
+#import "PKTCallViewController.h"
+
+#define kBasicPhoneBaseURL @"http://localhost"
+#define kLoginEndpoint @"auth.php"
 
 @interface PKTViewController ()
+
+@property (strong, nonatomic) PKTCallViewController *callViewController;
 
 @end
 
@@ -21,23 +28,40 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    PKTPho
-    
-    UIButton *callButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    __block UIButton *callButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [callButton setTitle:@"Call Support" forState:UIControlStateNormal];
     callButton.frame = CGRectMake(0, 0, 100, 50);
     callButton.center = self.view.center;
     [callButton addTarget:self action:@selector(didTapCall:) forControlEvents:UIControlEventTouchUpInside];
+    callButton.enabled = NO;
+    [self.view addSubview:callButton];
+    
+    NSURL *baseURL = [NSURL URLWithString:kBasicPhoneBaseURL];
+    AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    manager.responseSerializer.acceptableContentTypes =
+        [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
+    
+    [manager GET:kLoginEndpoint parameters:@{} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSString *token = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        [self setupPhoneKitWithToken:token];
+        callButton.enabled = YES;
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error: %@", error);
+    }];
+}
+
+- (void)setupPhoneKitWithToken:(NSString *)token
+{
+    [PKTPhone sharedPhone].capabilityToken = token;
+    self.callViewController = [PKTCallViewController new];
+    self.callViewController.title = @"Support";
+    [PKTPhone sharedPhone].delegate = self.callViewController;
 }
 
 - (void)didTapCall:(id)sender
 {
-    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [[PKTPhone sharedPhone] call];
 }
 
 @end

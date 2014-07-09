@@ -6,6 +6,8 @@
 #import "PKTCallRecord.h"
 
 @protocol PKTPhoneDelegate <NSObject>
+- (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming;
+- (void)callConnected;
 - (void)callEndedWithRecord:(PKTCallRecord *)record error:(NSError *)error;
 @end
 
@@ -15,11 +17,9 @@ typedef NS_ENUM(NSUInteger, IncomingCallResponse) {
     PKTCallResponseReject
 };
 
-@class PKTCallViewController;
-
 @interface PKTPhone : NSObject<TCDeviceDelegate, TCConnectionDelegate>
 
-@property (weak, nonatomic            ) id             delegate;
+@property (nonatomic, weak            ) id             delegate;
 
 @property (nonatomic, strong          ) NSString       *capabilityToken;
 @property (nonatomic, strong          ) NSString       *callerID;
@@ -28,18 +28,16 @@ typedef NS_ENUM(NSUInteger, IncomingCallResponse) {
 @property (nonatomic, strong, readonly) NSArray        *presenceContactsExceptMe;
 @property (nonatomic, assign, readonly) TCDeviceState  state;
 @property (nonatomic, assign, readonly) NSTimeInterval callDuration;
-@property (nonatomic, assign, readonly) BOOL           inCall;
-@property (nonatomic, assign, readonly) BOOL           hasActiveOrPendingCall;
+@property (nonatomic, assign, readonly) BOOL           hasActiveCall;
+@property (nonatomic, assign, readonly) BOOL           hasPendingCall;
 
-+ (instancetype)phoneWithCapabilityToken:(NSString *)token;
++ (instancetype)sharedPhone;
 
-- (void)call:(NSString *)number;
+- (void)call;
+- (void)callWithParams:(NSDictionary *)params;
 - (void)sendDigits:(NSString *)digitsString;
 - (void)hangup;
 
-- (void)showIncomingCall:(NSDictionary *)callInfo;
 - (void)respondToIncomingCall:(IncomingCallResponse)response;
-
-- (void)toggleRinger:(BOOL)on;
 
 @end

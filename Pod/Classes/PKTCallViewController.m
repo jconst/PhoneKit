@@ -19,34 +19,13 @@
 @property (strong, nonatomic) JCDialPad *mainPad;
 @property (strong, nonatomic) JCDialPad *keyPad;
 @property (strong, nonatomic) JCDialPad *incomingPad;
+@property (strong, nonatomic) UIImage   *backgroundImage;
 
 @end
 
 @implementation PKTCallViewController
 
 #pragma mark - View Lifecycle
-
-+ (instancetype)presentCallViewWithNumber:(NSString *)number unanswered:(BOOL)unanswered phone:(PKTPhone *)phone
-{
-    UIApplication *app = [UIApplication sharedApplication];
-    UIViewController *rootViewController = (UITabBarController *)app.keyWindow.rootViewController;
-
-    PKTCallViewController *callingViewController = [[self alloc] init];
-	callingViewController.phone = phone;
-    
-	if (![rootViewController.presentedViewController isKindOfClass:[PKTCallViewController class]]) {
-		if (rootViewController.presentedViewController) { // dismiss any controller currently up if it's not already calling view controller
-            [rootViewController dismissViewControllerAnimated:NO completion:nil];
-		}
-		
-        [rootViewController presentViewController:callingViewController animated:YES completion:nil];
-	}
-    if (number) {
-        [callingViewController setMainText:number];
-    }
-    [callingViewController callStarted:number unanswered:unanswered];
-    return callingViewController;
-}
 
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
@@ -86,30 +65,52 @@
     return UIStatusBarStyleLightContent;
 }
 
-#pragma mark - Call Handling
-
-- (void)callStarted:(NSString*)number unanswered:(BOOL)unanswered;
+- (void)present
 {
- 	self.callStatusLabel.text = unanswered ? @"incoming call" : @"connecting...";
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self switchToPad:unanswered ? self.incomingPad : self.mainPad
-                 animated:NO];
-    });
+    if (self.title) {
+        [self setMainText:self.title];
+    }
+ 
+    UIApplication *app = [UIApplication sharedApplication];
+    UIViewController *rootViewController = (UITabBarController *)app.keyWindow.rootViewController;
+    if (rootViewController.presentedViewController == self) {
+        return;
+    }
+    
+    //take snapshot of root view and set as background:
+    UIGraphicsBeginImageContext(rootViewController.view.size);
+    [rootViewController.view drawViewHierarchyInRect:rootViewController.view.bounds afterScreenUpdates:YES];
+    self.backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    [rootViewController presentViewController:self animated:YES completion:nil];
+}
+
+
+#pragma mark - PKTPhoneDelegate
+
+- (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming
+{
+ 	self.callStatusLabel.text = incoming ? @"incoming call" : @"connecting...";
+    [self switchToPad:incoming ? self.incomingPad : self.mainPad
+             animated:NO];
+    [self present];
 }
 
 - (void)callConnected
 {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self switchToPad:self.mainPad
-                 animated:NO];
-    });
+    [self switchToPad:self.mainPad
+             animated:NO];
 }
 
--(void)callEnded
+-(void)callEndedWithRecord:(PKTCallRecord *)record error:(NSError *)error
 {
 	dispatch_async(dispatch_get_main_queue(), ^{
         self.callStatusLabel.text = @"call ended";
         self.keyPad.rawText       = @"";
+        [[[RACSignal empty] delay:0.8] subscribeCompleted:^{
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }];
     });
 }
 
@@ -127,7 +128,7 @@
         dialPad.frame = self.view.bounds;
         dialPad.delegate = self;
         
-        UIImageView* backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"wallpaper"]];
+        UIImageView* backgroundView = [[UIImageView alloc] initWithImage:self.backgroundImage];
         backgroundView.contentMode = UIViewContentModeScaleAspectFill;
         [dialPad setBackgroundView:backgroundView];
         
@@ -141,8 +142,8 @@
     //reload mainPad buttons whenever muted or speakerEnabled changes,
     //or if viewWillAppear fires
     [[[RACSignal
-    combineLatest:@[RACObserve(self.phone, muted),
-                    RACObserve(self.phone, speakerEnabled)]]
+    combineLatest:@[RACObserve([PKTPhone sharedPhone], muted),
+                    RACObserve([PKTPhone sharedPhone], speakerEnabled)]]
     merge:          [self rac_signalForSelector:@selector(viewWillAppear:)]]
     subscribeNext:^(RACTuple *next) {
         //reload buttons
@@ -157,9 +158,9 @@
                         kCallingViewKeypadInput,
                         kCallingViewSpeakerInput,
                         kCallingViewHangupInput];
-    NSArray *icons = @[self.phone.muted ? [FIFontAwesomeIcon microphoneIcon] : [FIFontAwesomeIcon microphoneOffIcon],
+    NSArray *icons = @[[PKTPhone sharedPhone].muted ? [FIFontAwesomeIcon microphoneIcon] : [FIFontAwesomeIcon microphoneOffIcon],
                        [FIFontAwesomeIcon thIcon],
-                       self.phone.speakerEnabled ? [FIFontAwesomeIcon volumeDownIcon] : [FIFontAwesomeIcon volumeUpIcon],
+                       [PKTPhone sharedPhone].speakerEnabled ? [FIFontAwesomeIcon volumeDownIcon] : [FIFontAwesomeIcon volumeUpIcon],
                        [FIFontAwesomeIcon phoneIcon]];
     
     NSMutableArray *buttons = [NSMutableArray array];
@@ -236,16 +237,16 @@
 {
     if (dialPad == self.mainPad) {
         if ([text isEqual:kCallingViewMuteInput]) {
-            self.phone.muted = !self.phone.muted;
+            [PKTPhone sharedPhone].muted = ![PKTPhone sharedPhone].muted;
         }
         else if ([text isEqual:kCallingViewSpeakerInput]) {
-            self.phone.speakerEnabled = !self.phone.speakerEnabled;
+            [PKTPhone sharedPhone].speakerEnabled = ![PKTPhone sharedPhone].speakerEnabled;
         }
         else if ([text isEqualToString:kCallingViewKeypadInput]) {
             [self switchToPad:self.keyPad animated:YES];
         }
         else {
-            [self.phone hangup];
+            [[PKTPhone sharedPhone] hangup];
         }
         return NO;
     }
@@ -254,13 +255,13 @@
             [self switchToPad:self.mainPad animated:YES];
             return NO;
         }
-        [self.phone sendDigits:text];
+        [[PKTPhone sharedPhone] sendDigits:text];
         return YES;
     } else {
         NSDictionary *responses = @{kCallingViewAcceptInput: @(PKTCallResponseAccept),
                                     kCallingViewIgnoreInput: @(PKTCallResponseIgnore),
                                     kCallingViewHangupInput: @(PKTCallResponseReject)};
-        [self.phone respondToIncomingCall:[responses[text] unsignedIntegerValue]];
+        [[PKTPhone sharedPhone] respondToIncomingCall:[responses[text] unsignedIntegerValue]];
         return NO;
     }
 }
@@ -303,7 +304,7 @@
     [self.view addSubview:self.callStatusLabel];
     
     RACSignal *statusText =
-    [RACObserve(self.phone, callDuration)
+    [RACObserve([PKTPhone sharedPhone], callDuration)
     map:^NSString *(NSNumber *duration){
         long dur = [duration longValue];
         BOOL hasHours = dur / 3600 > 0;

@@ -7,22 +7,24 @@
 
 @interface PKTPhone ()
 
-@property (strong, nonatomic) PKTCallViewController *callingViewController;
-@property (strong, nonatomic) TCDevice                 *phoneDevice;
-@property (strong, nonatomic) TCConnection             *activeConnection;
-@property (strong, nonatomic) TCConnection             *pendingIncomingConnection;
-@property (strong, nonatomic) AVAudioPlayer            *audioPlayer;
-@property (strong, nonatomic) NSDate                   *callStart;
+@property (strong, nonatomic) TCDevice              *phoneDevice;
+@property (strong, nonatomic) TCConnection          *activeConnection;
+@property (strong, nonatomic) TCConnection          *pendingIncomingConnection;
+@property (strong, nonatomic) AVAudioPlayer         *audioPlayer;
+@property (strong, nonatomic) NSDate                *callStart;
 
 @end
 
 
 @implementation PKTPhone
 
-+ (instancetype)phoneWithCapabilityToken:(NSString *)token
++ (instancetype)sharedPhone;
 {
-    PKTPhone *phone = [[self alloc] init];
-    phone.capabilityToken = token;
+    static PKTPhone *phone = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        phone = [[self alloc] init];
+    });
     return phone;
 }
 
@@ -46,26 +48,11 @@
                 self.phoneDevice = [[TCDevice alloc] initWithCapabilityToken:token delegate:self];
         }];
         
-        [self setupRinger];
-
 		_speakerEnabled = NO;
 		_presenceContactsExceptMe = @[];
     }
 
 	return self;
-}
-
-- (void)setupRinger
-{
-    NSString* ringPath = [[NSBundle mainBundle] pathForResource:@"ring" ofType:@"wav"];
-    if ( ringPath )
-    {
-        NSURL *ringURL = [NSURL fileURLWithPath:ringPath];
-        
-        self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:ringURL error:nil];
-        self.audioPlayer.numberOfLoops = -1;
-        [self.audioPlayer prepareToPlay];
-    }
 }
 
 - (void)setupBindingsForActiveConnection
@@ -97,30 +84,38 @@
     }];
     //disconnect connections when phone will dealloc:
     [self.rac_willDeallocSignal subscribeNext:^(id x) {
-        [self.activeConnection disconnect];
-        [self.pendingIncomingConnection reject];
+        [self.phoneDevice disconnectAll];
     }];
+}
+
+- (void)didBecomeActive:(NSNotification *)notification
+{
+    if ([self hasPendingCall] && ![self hasActiveCall]) {
+        if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.delegate callStartedWithParams:self.pendingIncomingConnection.parameters incoming:YES];
+            });
+        }
+    }
 }
 
 #pragma mark - Calls
 
--(void)call:(NSString*)number
+-(void)call
 {
-    self.callingViewController = [PKTCallViewController presentCallViewWithNumber:number unanswered:NO phone:self];
+    [self callWithParams:nil];
+}
 
-    NSMutableDictionary* params = [NSMutableDictionary dictionary];
-    params[@"type"] = [number isClientNumber] ? @"client" : @"phone";
-    
-    if (number) {
-        NSString* sanitizedNumber = [number sanitizeNumber];
-        params[@"to"] = sanitizedNumber;
-    }
-    
-    if (self.callerID)
-        params[@"callerid"] = self.callerID;
-    
+- (void)callWithParams:(NSDictionary *)params
+{
     if (self.phoneDevice)
         self.activeConnection = [self.phoneDevice connect:params delegate:self];
+    
+    if ([self.delegate respondsToSelector:@selector(callStartedWithParams:incoming:)]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.delegate callStartedWithParams:params incoming:NO];
+        });
+    }
 }
 
 -(void)sendDigits:(NSString*)digits
@@ -133,14 +128,16 @@
 - (void)hangup
 {
     [self.activeConnection disconnect]; // will be nilled out in connectionDidDisconnect
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self.callingViewController dismissViewControllerAnimated:YES completion:nil];
-    });
 }
 
-- (BOOL)inCall
+- (BOOL)hasActiveCall
 {
     return self.activeConnection && self.activeConnection.state == TCConnectionStateConnected;
+}
+
+- (BOOL)hasPendingCall
+{
+    return self.pendingIncomingConnection;
 }
 
 - (PKTCallRecord *)callRecordForConnection:(TCConnection*)connection
@@ -156,7 +153,7 @@
 
         // Call record starts as missed if it's incoming.
         // Once the connection is answered, we'll update the record.
-        record.missed = YES;
+        record.missed = connection == self.activeConnection;
     } else {
         NSDictionary *params    = connection.parameters;
         record.number           = params[@"to"];
@@ -172,21 +169,48 @@
 
 #pragma mark Incoming Calls
 
-//called after self.pendingIncomingConnection is already set to the call
-- (void)showIncomingCall:(NSDictionary *)callInfo
+- (void)device:(TCDevice*)theDevice didReceiveIncomingConnection:(TCConnection*)connection
 {
-    if (![callInfo[@"callSID"] isEqualToString:self.pendingIncomingConnection.parameters[TCConnectionIncomingParameterCallSIDKey]]) {
-        NSLog(@"acceptNotification(): Call is already terminated");
-        return;
-    }
-    [self toggleRinger:YES];
-    
-    self.callingViewController = [PKTCallViewController presentCallViewWithNumber:callInfo[@"from"] unanswered:YES phone:self];
+	if (!([self hasActiveCall] || [self hasPendingCall])) { // only the first incoming connection is handled,
+        // and once an active connection is established we auto-reject
+		connection.delegate = self;
+		self.pendingIncomingConnection = connection;
+		
+        NSString *from = connection.parameters[@"From"] ?: @"unknown";
+        
+        NSDictionary *callInfo = @{@"callSID": self.pendingIncomingConnection.parameters[TCConnectionIncomingParameterCallSIDKey],
+                                   @"from": from};
+        
+		if ([UIApplication sharedApplication].applicationState == UIApplicationStateBackground) {
+            UILocalNotification* alarm = [UILocalNotification new];
+            
+            if (alarm) {
+                from                   = [from sanitizeNumber];
+                alarm.alertAction      = @"View";
+                alarm.fireDate         = [NSDate date];
+                alarm.timeZone         = [NSTimeZone defaultTimeZone];
+                alarm.repeatInterval   = 0;
+                alarm.soundName        = @"default";
+                alarm.alertBody        = [NSString stringWithFormat:@"Incoming Twilio Call From %@", from];
+                
+                [alarm setUserInfo:callInfo];
+                
+                [[UIApplication sharedApplication] scheduleLocalNotification:alarm];
+            }
+        } else {
+            if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.delegate callStartedWithParams:connection.parameters incoming:YES];
+                });
+            }
+        }
+	} else {
+		[connection reject];
+	}
 }
 
 - (void)respondToIncomingCall:(IncomingCallResponse)response
 {
-    [self toggleRinger:NO];
     NSArray* oldNotifications = [[UIApplication sharedApplication] scheduledLocalNotifications];
     // Clear out the old notification before scheduling a new one.
     if ([oldNotifications count] > 0) {
@@ -209,24 +233,6 @@
            [[self audioOutputPorts] containsObject:AVAudioSessionPortBuiltInSpeaker];
 }
 
--(void)toggleRinger:(BOOL)on
-{
-	if (on) {
-		AudioServicesPlaySystemSound(kSystemSoundID_Vibrate); // won't vibrate if user has them disabled
-		if ([self shouldRingThroughSpeaker]) {
-			[self changeRouteToSpeaker:YES];
-		}
-		self.audioPlayer.currentTime = 0;
-		[self.audioPlayer play];
-	}
-	else if ( self.audioPlayer.playing ) // don't change the route unless the ringer is actually going.
-	{
-		// be a good citizen and set the audio route to off once the ringer is done.
-		[self changeRouteToSpeaker:NO];
-		[self.audioPlayer stop];
-	}
-}
-
 #pragma mark - TCDeviceDelegate
 
 - (void)deviceDidStartListeningForIncomingConnections:(TCDevice *)device
@@ -239,42 +245,6 @@
 		NSLog(@"Did stop listening for connections due to error %@", [error localizedDescription]);
 	else
 		NSLog(@"Stopped listening for connections");
-}
-
-- (void)device:(TCDevice*)theDevice didReceiveIncomingConnection:(TCConnection*)connection
-{
-	if (![self hasActiveOrPendingCall]) { // only the first incoming connection is handled,
-                                                // and once an active connection is established we auto-reject
-		connection.delegate = self;
-		self.pendingIncomingConnection = connection;
-		
-        NSString *from = connection.parameters[@"From"] ?: @"unknown";
-        
-        NSDictionary *callInfo = @{@"callSID": self.pendingIncomingConnection.parameters[TCConnectionIncomingParameterCallSIDKey],
-                                      @"from": from};
-        
-		if ([UIApplication sharedApplication].applicationState == UIApplicationStateBackground) {
-            UILocalNotification* alarm = [UILocalNotification new];
-            
-            if (alarm) {
-                from                   = [from sanitizeNumber];
-                alarm.alertAction      = @"View";
-                alarm.fireDate         = [NSDate date];
-                alarm.timeZone         = [NSTimeZone defaultTimeZone];
-                alarm.repeatInterval   = 0;
-                alarm.soundName        = @"default";
-                alarm.alertBody        = [NSString stringWithFormat:@"Incoming Twilio Call From %@", from];
-
-                [alarm setUserInfo:callInfo];
-                
-                [[UIApplication sharedApplication] scheduleLocalNotification:alarm];
-            }
-        } else {
-            [self showIncomingCall:callInfo];
-        }
-	} else {
-		[connection reject];
-	}
 }
 
 -(void)device:(TCDevice*)device didReceivePresenceUpdate:(TCPresenceEvent*)presenceEvent
@@ -330,7 +300,12 @@
     }];
 
 	[self changeRouteToSpeaker:self.speakerEnabled];
-    [self.callingViewController callConnected];
+    
+    if ([self.delegate respondsToSelector:@selector(callConnected)]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.delegate callConnected];
+        });
+    }
 }
 
 -(void)connectionDidDisconnect:(TCConnection*)theConnection
@@ -344,27 +319,23 @@
 }
 
 // common behaviors whether the call disconnects normally or due to an error
--(void)connectionDisconnected:(TCConnection*)theConnection error:(NSError *)error
+-(void)connectionDisconnected:(TCConnection*)connection error:(NSError *)error
 {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self.callingViewController callEnded];
-        [self.callingViewController dismissViewControllerAnimated:YES completion:nil];
-    });
-    
-    PKTCallRecord *record = [self callRecordForConnection:theConnection];
+    PKTCallRecord *record = [self callRecordForConnection:connection];
 
-	if (theConnection == self.pendingIncomingConnection) {
+    if (connection == self.pendingIncomingConnection) {
 		self.pendingIncomingConnection = nil;
-		[self toggleRinger:NO];
 	}
-	if (theConnection == self.activeConnection) {
+	if (connection == self.activeConnection) {
 		self.activeConnection = nil;
 		self.speakerEnabled = NO;
-        record.missed = NO;
 	}
-
-    if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)])
-        [self.delegate callEndedWithRecord:record error:error];
+    
+    if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.delegate callEndedWithRecord:record error:error];
+        });
+    }
 }
 
 #pragma mark - Helpers
@@ -384,20 +355,6 @@
     map:^NSString *(AVAudioSessionPortDescription *desc) {
         return desc.portType;
     }] array];
-}
-
--(BOOL)hasActiveOrPendingCall
-{
-    return  (self.activeConnection.state == TCConnectionStateConnected ||
-             self.pendingIncomingConnection.state == TCConnectionStateConnected);
-}
-
-#pragma mark - Teardown
-
--(void)dealloc
-{
-    [self.phoneDevice disconnectAll];
-    self.phoneDevice = nil;
 }
 
 @end
