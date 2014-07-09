@@ -105,13 +105,11 @@
 
 -(void)callEndedWithRecord:(PKTCallRecord *)record error:(NSError *)error
 {
-	dispatch_async(dispatch_get_main_queue(), ^{
-        self.callStatusLabel.text = @"call ended";
-        self.keyPad.rawText       = @"";
-        [[[RACSignal empty] delay:0.8] subscribeCompleted:^{
-            [self dismissViewControllerAnimated:YES completion:nil];
-        }];
-    });
+    self.callStatusLabel.text = @"call ended";
+    self.keyPad.rawText       = @"";
+    [[[RACSignal empty] delay:0.5] subscribeCompleted:^{
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }];
 }
 
 #pragma mark - Dial Pads
@@ -128,9 +126,13 @@
         dialPad.frame = self.view.bounds;
         dialPad.delegate = self;
         
-        UIImageView* backgroundView = [[UIImageView alloc] initWithImage:self.backgroundImage];
-        backgroundView.contentMode = UIViewContentModeScaleAspectFill;
-        [dialPad setBackgroundView:backgroundView];
+        [[RACObserve(self, backgroundImage)
+         ignore:nil]
+         subscribeNext:^(UIImage *bg) {
+            UIImageView* backgroundView = [[UIImageView alloc] initWithImage:bg];
+            backgroundView.contentMode = UIViewContentModeScaleAspectFill;
+            [dialPad setBackgroundView:backgroundView];
+        }];
         
         [self.view addSubview:dialPad];
     }
