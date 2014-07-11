@@ -24,29 +24,6 @@
     return [[self stripToDigitsOnly] isEqualToString:stripped];
 }
 
-- (BOOL)isGreaterThanVersion:(NSString *)version
-{
-    NSArray *me = [self componentsSeparatedByString:@"."];
-    NSArray *them = [version componentsSeparatedByString:@"."];
-    
-    NSEnumerator *zipped = [[RACSequence zip:@[me.rac_sequence, them.rac_sequence]] objectEnumerator];
-    
-    for (RACTuple *next in zipped) {
-        RACTupleUnpack(NSString *myPart, NSString *theirPart) = next;
-        NSInteger myNum    = [myPart integerValue];
-        NSInteger theirNum = [theirPart integerValue];
-        if (myNum != theirNum) {
-            return myNum > theirNum;
-        }
-    }
-    // all comparable version parts match at this point; check lengths
-    if (me.count != them.count) {
-        //assume the longer one is greater (e.g. 1.0.1 vs 1.0)
-        return me.count > them.count;
-    }
-    return NO;
-}
-
 - (NSString *)stripToDigitsOnly
 {
     NSCharacterSet *strippingCharSet = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];

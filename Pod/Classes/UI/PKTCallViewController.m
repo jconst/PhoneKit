@@ -66,7 +66,7 @@
         [self setMainText:self.mainText];
     }
  
-    UIApplication *app = [UIApplication sharedApplication];
+    UIApplication *app                   = [UIApplication sharedApplication];
     UIViewController *rootViewController = (UITabBarController *)app.keyWindow.rootViewController;
     if (rootViewController.presentedViewController == self) {
         return;
@@ -118,14 +118,14 @@
 {
     for (JCDialPad *dialPad in [self dialPads]) {
         dialPad.showDeleteButton = NO;
-        dialPad.frame = self.view.bounds;
-        dialPad.delegate = self;
+        dialPad.frame            = self.view.bounds;
+        dialPad.delegate         = self;
         
         [[RACObserve(self, backgroundImage)
          ignore:nil]
          subscribeNext:^(UIImage *bg) {
             UIImageView* backgroundView = [[UIImageView alloc] initWithImage:bg];
-            backgroundView.contentMode = UIViewContentModeScaleAspectFill;
+            backgroundView.contentMode  = UIViewContentModeScaleAspectFill;
             [dialPad setBackgroundView:backgroundView];
         }];
         
@@ -141,7 +141,7 @@
     [[[RACSignal
     combineLatest:@[RACObserve([PKTPhone sharedPhone], muted),
                     RACObserve([PKTPhone sharedPhone], speakerEnabled)]]
-    merge:          [self rac_signalForSelector:@selector(viewWillAppear:)]]
+            merge:[self rac_signalForSelector:@selector(viewWillAppear:)]]
     subscribeNext:^(RACTuple *next) {
         //reload buttons
         self.mainPad.buttons = [self mainPadButtons];
@@ -163,20 +163,20 @@
     NSMutableArray *buttons = [NSMutableArray array];
     
     [inputs enumerateObjectsUsingBlock:^(NSString *input, NSUInteger i, BOOL *stop) {
-        FIIconView *iconView = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
+        FIIconView *iconView     = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
         iconView.backgroundColor = [UIColor clearColor];
-        iconView.icon = icons[i];
-        iconView.padding = 15;
-        iconView.iconColor = [UIColor whiteColor];
-        JCPadButton *button = [[JCPadButton alloc] initWithInput:input iconView:iconView subLabel:@""];
+        iconView.icon            = icons[i];
+        iconView.padding         = 15;
+        iconView.iconColor       = [UIColor whiteColor];
+        JCPadButton *button      = [[JCPadButton alloc] initWithInput:input iconView:iconView subLabel:@""];
         
         if ([input isEqual:kCallingViewHangupInput] ||
             [input isEqual:kCallingViewKeypadInput]) {
-            iconView.transform = CGAffineTransformMakeRotation(DEG_TO_RAD(90));
+            iconView.transform     = CGAffineTransformMakeRotation(DEG_TO_RAD(90));
         } if ([input isEqual:kCallingViewHangupInput]) {
-            UIColor *buttonColor = [UIColor colorWithRed:0.987 green:0.133 blue:0.146 alpha:1.000];
+            UIColor *buttonColor   = [UIColor colorWithRed:0.987 green:0.133 blue:0.146 alpha:1.000];
             button.backgroundColor = buttonColor;
-            button.borderColor = buttonColor;
+            button.borderColor     = buttonColor;
         }
         [buttons addObject:button];
     }];
@@ -185,13 +185,13 @@
 
 - (NSArray *)keyPadButtons
 {
-    FIIconView *iconView = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
+    FIIconView *iconView     = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
     iconView.backgroundColor = [UIColor clearColor];
-    iconView.icon = [FIFontAwesomeIcon replyIcon];
-    iconView.padding = 15;
-    iconView.iconColor = [UIColor whiteColor];
-    
-    JCPadButton *backButton = [[JCPadButton alloc] initWithInput:kKeyboardViewBackInput iconView:iconView subLabel:@""];
+    iconView.icon            = [FIFontAwesomeIcon replyIcon];
+    iconView.padding         = 15;
+    iconView.iconColor       = [UIColor whiteColor];
+
+    JCPadButton *backButton  = [[JCPadButton alloc] initWithInput:kKeyboardViewBackInput iconView:iconView subLabel:@""];
     
     return [[JCDialPad defaultButtons] arrayByAddingObject:backButton];
 }
@@ -208,23 +208,23 @@
     NSMutableArray *buttons = [NSMutableArray array];
     
     [inputs enumerateObjectsUsingBlock:^(NSString *input, NSUInteger i, BOOL *stop) {
-        FIIconView *iconView = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
+        FIIconView *iconView     = [[FIIconView alloc] initWithFrame:CGRectMake(0, 0, 65, 65)];
         iconView.backgroundColor = [UIColor clearColor];
-        iconView.icon = icons[i];
-        iconView.padding = 15;
-        iconView.iconColor = [UIColor whiteColor];
-        JCPadButton *button = [[JCPadButton alloc] initWithInput:input iconView:iconView subLabel:@""];
-        
-        UIColor *buttonColor = [UIColor colorWithRed:0.488 green:0.478 blue:0.504 alpha:1.000];
+        iconView.icon            = icons[i];
+        iconView.padding         = 15;
+        iconView.iconColor       = [UIColor whiteColor];
+        JCPadButton *button      = [[JCPadButton alloc] initWithInput:input iconView:iconView subLabel:@""];
+
+        UIColor *buttonColor     = [UIColor colorWithRed:0.488 green:0.478 blue:0.504 alpha:1.000];
         
         if ([input isEqual:kCallingViewAcceptInput]) {
-            buttonColor = [UIColor colorWithRed:0.261 green:0.837 blue:0.319 alpha:1.000];
+            buttonColor        = [UIColor colorWithRed:0.261 green:0.837 blue:0.319 alpha:1.000];
         } if ([input isEqual:kCallingViewHangupInput]) {
-            buttonColor = [UIColor colorWithRed:0.987 green:0.133 blue:0.146 alpha:1.000];
+            buttonColor        = [UIColor colorWithRed:0.987 green:0.133 blue:0.146 alpha:1.000];
             iconView.transform = CGAffineTransformMakeRotation(DEG_TO_RAD(90));
         }
         button.backgroundColor = buttonColor;
-        button.borderColor = buttonColor;
+        button.borderColor     = buttonColor;
         [buttons addObject:button];
     }];
     return buttons;
@@ -285,30 +285,30 @@
 
 - (void)setMainText:(NSString *)text
 {
-    self.mainPad.rawText = text;
+    self.mainPad.rawText     = text;
     self.incomingPad.rawText = text;
 }
 
 #pragma mark - Call Status Label
 
 - (void)setupCallStatusLabel
-{    
-    self.callStatusLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.mainPad.digitsTextField.bottom, self.view.width, 24)];
-    self.callStatusLabel.textColor = [UIColor colorWithWhite:1.000 alpha:0.800];
-    self.callStatusLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
-    self.callStatusLabel.textAlignment = NSTextAlignmentCenter;
+{
+    CGRect frame                                = CGRectMake(0, self.mainPad.digitsTextField.bottom, self.view.width, 24);
+    self.callStatusLabel                        = [[UILabel alloc] initWithFrame:frame];
+    self.callStatusLabel.textColor              = [UIColor colorWithWhite:1.000 alpha:0.800];
+    self.callStatusLabel.font                   = [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+    self.callStatusLabel.textAlignment          = NSTextAlignmentCenter;
     self.callStatusLabel.userInteractionEnabled = NO;
     [self.view addSubview:self.callStatusLabel];
     
     RACSignal *statusText =
     [RACObserve([PKTPhone sharedPhone], callDuration)
     map:^NSString *(NSNumber *duration){
-        long dur = [duration longValue];
+        long dur      = [duration longValue];
         BOOL hasHours = dur / 3600 > 0;
         if (hasHours) {
             return [NSString stringWithFormat:@"%lu:%02lu:%02lu", dur/3600, (dur % 3600)/60, dur % 60];
-        }
-        else {
+        } else {
             return [NSString stringWithFormat:@"%02lu:%02lu", dur/60, dur % 60];
         }
     }];

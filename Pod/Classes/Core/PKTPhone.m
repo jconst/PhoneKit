@@ -30,8 +30,7 @@
 
 - (id)init
 {
-	if (self = [super init])
-	{
+	if (self = [super init]) {
         [self setupBindingsForActiveConnection];
         
         //bind self.state to phoneDevice.state:  
@@ -50,7 +49,6 @@
             }
         }];
         
-		_speakerEnabled = NO;
 		_presenceContactsExceptMe = @[];
     }
 
@@ -70,19 +68,15 @@
     // set proximity sensor = on if using the iphone's built-in receiver:
     RACSignal *audioRouteChanged = [[NSNotificationCenter defaultCenter]
                                     rac_addObserverForName:AVAudioSessionRouteChangeNotification
-                                    object:[AVAudioSession sharedInstance]];
+                                                    object:[AVAudioSession sharedInstance]];
     
     RAC([UIDevice currentDevice], proximityMonitoringEnabled) = [RACSignal
     combineLatest:@[RACObserve(self, activeConnection), audioRouteChanged]
     reduce:^NSNumber *(TCConnection *conn, NSNotification *notif){
 
-        if (conn && (conn.state == TCConnectionStateConnecting ||
-                     conn.state == TCConnectionStateConnected)) {
-            
-            return @([[self audioOutputPorts] containsObject:AVAudioSessionPortBuiltInReceiver]);
-        } else {
-            return @NO;
-        }
+        return (conn && (conn.state == TCConnectionStateConnecting || conn.state == TCConnectionStateConnected))
+               ? @([[self audioOutputPorts] containsObject:AVAudioSessionPortBuiltInReceiver])
+               : @NO;
     }];
     //disconnect connections when phone will dealloc:
     [self.rac_willDeallocSignal subscribeNext:^(id x) {
@@ -92,13 +86,7 @@
 
 - (void)didBecomeActive:(NSNotification *)notification
 {
-    if ([self hasPendingCall] && ![self hasActiveCall]) {
-        if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.delegate callStartedWithParams:self.pendingIncomingConnection.parameters incoming:YES];
-            });
-        }
-    }
+    [self informOfPendingCall];
 }
 
 #pragma mark - Calls
@@ -145,27 +133,20 @@
 - (PKTCallRecord *)callRecordForConnection:(TCConnection*)connection
 {
     PKTCallRecord *record = [PKTCallRecord new];
-    record.incoming    = connection.incoming;
-    record.dateTime    = [NSDate date];
-
+    record.incoming   = connection.incoming;
+    record.dateTime   = [NSDate date];
     if (record.incoming) {
-        record.number = (connection.parameters)[@"From"];
-        record.city   = (connection.parameters)[@"FromState"];
-        record.state  = (connection.parameters)[@"FromCountry"];
-
-        // Call record starts as missed if it's incoming.
-        // Once the connection is answered, we'll update the record.
-        record.missed = connection == self.activeConnection;
+        record.number = connection.parameters[@"From"];
+        record.city   = connection.parameters[@"FromState"];
+        record.state  = connection.parameters[@"FromCountry"];
+        record.missed = connection != self.activeConnection;
     } else {
-        NSDictionary *params    = connection.parameters;
-        record.number           = params[@"to"];
-        record.city             = nil;
+        record.number = connection.parameters[@"to"];
+        record.city   = nil;
     }
-    
     if ([record.number isClientNumber]) {
         record.number = [record.number sanitizeNumber];
     }
-
     return record;
 }
 
@@ -177,48 +158,41 @@
         // and once an active connection is established we auto-reject
 		connection.delegate = self;
 		self.pendingIncomingConnection = connection;
-		
-        NSString *from = connection.parameters[@"From"] ?: @"unknown";
         
-        NSDictionary *callInfo = @{@"callSID": self.pendingIncomingConnection.parameters[TCConnectionIncomingParameterCallSIDKey],
-                                   @"from": from};
-        
-		if ([UIApplication sharedApplication].applicationState == UIApplicationStateBackground) {
-            UILocalNotification* alarm = [UILocalNotification new];
-            
-            if (alarm) {
-                from                   = [from sanitizeNumber];
-                alarm.alertAction      = @"View";
-                alarm.fireDate         = [NSDate date];
-                alarm.timeZone         = [NSTimeZone defaultTimeZone];
-                alarm.repeatInterval   = 0;
-                alarm.soundName        = @"default";
-                alarm.alertBody        = [NSString stringWithFormat:@"Incoming Twilio Call From %@", from];
-                
-                [alarm setUserInfo:callInfo];
-                
-                [[UIApplication sharedApplication] scheduleLocalNotification:alarm];
-            }
+		if ([UIApplication sharedApplication].applicationState == UIApplicationStateActive) {
+            [self informOfPendingCall];
         } else {
-            if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [self.delegate callStartedWithParams:connection.parameters incoming:YES];
-                });
-            }
+            // Clear out the old notification before scheduling a new one.
+            [[UIApplication sharedApplication] cancelAllLocalNotifications];
+
+            UILocalNotification *alarm = [UILocalNotification new];
+            NSString *from             = [connection.parameters[@"From"] sanitizeNumber] ?: @"unknown";
+            NSDictionary *callInfo     = @{@"callSID": connection.parameters[TCConnectionIncomingParameterCallSIDKey],
+                                          @"from": from};
+            alarm.soundName            = @"incoming.wav";
+            alarm.alertBody            = [NSString stringWithFormat:@"Incoming Twilio Call From %@", from];
+            alarm.userInfo             = callInfo;
+            
+            [[UIApplication sharedApplication] scheduleLocalNotification:alarm];
         }
 	} else {
 		[connection reject];
 	}
 }
 
+- (void)informOfPendingCall
+{
+    if ([self hasPendingCall] && ![self hasActiveCall]) {
+        if ([self.delegate respondsToSelector:@selector(callEndedWithRecord:error:)]) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.delegate callStartedWithParams:self.pendingIncomingConnection.parameters incoming:YES];
+            });
+        }
+    }
+}
+
 - (void)respondToIncomingCall:(IncomingCallResponse)response
 {
-    NSArray* oldNotifications = [[UIApplication sharedApplication] scheduledLocalNotifications];
-    // Clear out the old notification before scheduling a new one.
-    if ([oldNotifications count] > 0) {
-        [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    }
-    
     if (response == PKTCallResponseAccept) {
         [self.pendingIncomingConnection accept];
         self.activeConnection = self.pendingIncomingConnection;
@@ -236,10 +210,6 @@
 }
 
 #pragma mark - TCDeviceDelegate
-
-- (void)deviceDidStartListeningForIncomingConnections:(TCDevice *)device
-{
-}
 
 -(void)device:(TCDevice*)theDevice didStopListeningForIncomingConnections:(NSError*)error
 {
@@ -344,9 +314,8 @@
 
 - (void)changeRouteToSpeaker:(BOOL)speaker
 {
-    AVAudioSessionPortOverride override = speaker
-    ? AVAudioSessionPortOverrideSpeaker
-    : kAudioSessionOverrideAudioRoute_None;
+    AVAudioSessionPortOverride override = speaker ? AVAudioSessionPortOverrideSpeaker
+                                                  : kAudioSessionOverrideAudioRoute_None;
     
     [[AVAudioSession sharedInstance] overrideOutputAudioPort:override error:nil];
 }
