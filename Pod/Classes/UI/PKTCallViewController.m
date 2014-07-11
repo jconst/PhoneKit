@@ -48,6 +48,9 @@
     self.mainPad     = [JCDialPad new];
     self.keyPad      = [JCDialPad new];
     self.incomingPad = [JCDialPad new];
+    
+    RAC(self.mainPad, rawText)     = RACObserve(self, mainText);
+    RAC(self.incomingPad, rawText) = RACObserve(self, mainText);
 }
 
 - (void)viewDidLoad
@@ -62,10 +65,6 @@
 
 - (void)present
 {
-    if (self.mainText) {
-        [self setMainText:self.mainText];
-    }
- 
     UIApplication *app                   = [UIApplication sharedApplication];
     UIViewController *rootViewController = (UITabBarController *)app.keyWindow.rootViewController;
     if (rootViewController.presentedViewController == self) {
@@ -81,7 +80,6 @@
     [rootViewController presentViewController:self animated:YES completion:nil];
 }
 
-
 #pragma mark - PKTPhoneDelegate
 
 - (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming
@@ -90,12 +88,18 @@
  	self.callStatusLabel.text = incoming ? @"incoming call" : @"connecting...";
     [self switchToPad:incoming ? self.incomingPad : self.mainPad
              animated:NO];
+    
+    if ([self.phoneDelegate respondsToSelector:_cmd])
+        [self.phoneDelegate callStartedWithParams:params incoming:incoming];
 }
 
 - (void)callConnected
 {
     [self switchToPad:self.mainPad
              animated:NO];
+    
+    if ([self.phoneDelegate respondsToSelector:_cmd])
+        [self.phoneDelegate callConnected];
 }
 
 -(void)callEndedWithRecord:(PKTCallRecord *)record error:(NSError *)error
@@ -105,6 +109,9 @@
     [[[RACSignal empty] delay:0.5] subscribeCompleted:^{
         [self dismissViewControllerAnimated:YES completion:nil];
     }];
+    
+    if ([self.phoneDelegate respondsToSelector:_cmd])
+        [self.phoneDelegate callEndedWithRecord:record error:error];
 }
 
 #pragma mark - Dial Pads
@@ -281,12 +288,6 @@
                 otherPad.hidden = YES;
         }
     }];
-}
-
-- (void)setMainText:(NSString *)text
-{
-    self.mainPad.rawText     = text;
-    self.incomingPad.rawText = text;
 }
 
 #pragma mark - Call Status Label

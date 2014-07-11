@@ -1,16 +1,12 @@
 #import "ReactiveCocoa.h"
 #import "NSString+PKTHelpers.h"
 
-@implementation NSString (Helpers)
+@implementation NSString (PKTHelpers)
 
 - (BOOL)isClientNumber
 {
-    // if any of the chars in this charset appear in the input string,
-    // then it's a client.  otherwise, the string is made up of only
-    // numbers, +, and -, which makes it a phone number.
     // (This isn't precise E.164 parsing, but it's easy enough for now.)
 	NSCharacterSet* charsetForClient = [[NSCharacterSet characterSetWithCharactersInString:@"0123456789+-()  "] invertedSet];
-	
 	return [self rangeOfCharacterFromSet:charsetForClient].location != NSNotFound;
 }
 

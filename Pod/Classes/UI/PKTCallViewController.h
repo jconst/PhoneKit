@@ -4,9 +4,8 @@
 
 @interface PKTCallViewController : UIViewController <JCDialPadDelegate, PKTPhoneDelegate>
 
-@property (nonatomic, strong) NSString *mainText;
-@property (nonatomic, strong) UILabel  *callStatusLabel;
-
-- (void)setMainText:(NSString *)text;
+@property (nonatomic, weak  ) id<PKTPhoneDelegate> phoneDelegate;
+@property (nonatomic, strong) NSString             *mainText;
+@property (nonatomic, strong) UILabel              *callStatusLabel;
 
 @end

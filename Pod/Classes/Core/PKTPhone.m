@@ -7,7 +7,7 @@
 
 @interface PKTPhone ()
 
-@property (strong, nonatomic) NSDate                *callStart;
+@property (strong, nonatomic) NSDate *callStart;
 
 @end
 
@@ -45,6 +45,12 @@
             }
         }];
         
+        RACSignal *didBecomeActive = [[NSNotificationCenter defaultCenter]
+                                      rac_addObserverForName:UIApplicationDidBecomeActiveNotification  object:nil];
+        [didBecomeActive subscribeNext:^(id _) {
+            [self informOfPendingCall];
+        }];
+        
 		_presenceContactsExceptMe = @[];
     }
 
@@ -75,14 +81,9 @@
                : @NO;
     }];
     //disconnect connections when phone will dealloc:
-    [self.rac_willDeallocSignal subscribeNext:^(id x) {
+    [self.rac_willDeallocSignal subscribeNext:^(id _) {
         [self.phoneDevice disconnectAll];
     }];
-}
-
-- (void)didBecomeActive:(NSNotification *)notification
-{
-    [self informOfPendingCall];
 }
 
 #pragma mark - Calls
@@ -94,8 +95,11 @@
 
 - (void)callWithParams:(NSDictionary *)params
 {
-    if (self.phoneDevice)
-        self.activeConnection = [self.phoneDevice connect:params delegate:self];
+    if (!(self.phoneDevice && self.capabilityToken)) {
+        NSLog(@"Error: You must set PKTPhone's capability token before you make a call");
+    }
+    
+    self.activeConnection = [self.phoneDevice connect:params delegate:self];
     
     if ([self.delegate respondsToSelector:@selector(callStartedWithParams:incoming:)]) {
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -113,7 +117,7 @@
 
 - (void)hangup
 {
-    [self.activeConnection disconnect]; // will be nilled out in connectionDidDisconnect
+    [self.activeConnection disconnect];
 }
 
 - (BOOL)hasActiveCall
