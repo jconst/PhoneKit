@@ -60,11 +60,6 @@
     [self setupCallStatusLabel];
 }
 
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
-
 - (void)present
 {
     if (self.mainText) {
@@ -318,6 +313,18 @@
         }
     }];
     RAC(self.callStatusLabel, text) = statusText;
+}
+
+#pragma mark - Preferences
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 @end
