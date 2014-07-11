@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Joseph Constantakis" => "jcon5294@gmail.com" }
   s.source           = { :git => "https://github.com/jconst/PhoneKit.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.subspec "Core" do |ss|

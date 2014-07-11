@@ -7,10 +7,6 @@
 
 @interface PKTPhone ()
 
-@property (strong, nonatomic) TCDevice              *phoneDevice;
-@property (strong, nonatomic) TCConnection          *activeConnection;
-@property (strong, nonatomic) TCConnection          *pendingIncomingConnection;
-@property (strong, nonatomic) AVAudioPlayer         *audioPlayer;
 @property (strong, nonatomic) NSDate                *callStart;
 
 @end
@@ -134,7 +130,8 @@
 {
     PKTCallRecord *record = [PKTCallRecord new];
     record.incoming   = connection.incoming;
-    record.dateTime   = [NSDate date];
+    record.startTime  = [NSDate date];
+    record.duration   = self.callDuration;
     if (record.incoming) {
         record.number = connection.parameters[@"From"];
         record.city   = connection.parameters[@"FromState"];

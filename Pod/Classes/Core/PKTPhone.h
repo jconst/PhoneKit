@@ -32,6 +32,10 @@ typedef NS_ENUM(NSUInteger, IncomingCallResponse) {
 @property (nonatomic, assign, readonly) BOOL           hasActiveCall;
 @property (nonatomic, assign, readonly) BOOL           hasPendingCall;
 
+@property (nonatomic, strong          ) TCDevice       *phoneDevice;
+@property (nonatomic, strong          ) TCConnection   *activeConnection;
+@property (nonatomic, strong          ) TCConnection   *pendingIncomingConnection;
+
 + (instancetype)sharedPhone;
 
 - (void)call;
