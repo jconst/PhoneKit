@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec "Core" do |ss|
-    ss.dependency 'TwilioSDK', '1.1.5-ce0a13e'
+    ss.dependency 'TwilioSDK'
     ss.dependency 'ReactiveCocoa'
     ss.source_files = 'Pod/Classes/Core/'
   end
