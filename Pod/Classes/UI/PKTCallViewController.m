@@ -86,6 +86,7 @@
 {
     [self present];
  	self.callStatusLabel.text = incoming ? @"incoming call" : @"connecting...";
+    self.mainText             = incoming ? params[@"From"]  : @"";
     [self switchToPad:incoming ? self.incomingPad : self.mainPad
              animated:NO];
     

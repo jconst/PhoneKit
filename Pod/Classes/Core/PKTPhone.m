@@ -144,6 +144,7 @@
     } else {
         record.number = connection.parameters[@"to"];
         record.city   = nil;
+        record.state  = nil;
     }
     if ([record.number isClientNumber]) {
         record.number = [record.number sanitizeNumber];
