@@ -41,7 +41,6 @@
                 [self.phoneDevice updateCapabilityToken:token];
             else {
                 self.phoneDevice = [[TCDevice alloc] initWithCapabilityToken:token delegate:self];
-                self.phoneDevice.incomingSoundEnabled = NO;
             }
         }];
         

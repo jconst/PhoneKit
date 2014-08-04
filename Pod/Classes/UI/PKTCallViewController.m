@@ -48,6 +48,7 @@
     self.mainPad     = [JCDialPad new];
     self.keyPad      = [JCDialPad new];
     self.incomingPad = [JCDialPad new];
+    self.mainText    = @"";
     
     RAC(self.mainPad, rawText)     = RACObserve(self, mainText);
     RAC(self.incomingPad, rawText) = RACObserve(self, mainText);
@@ -69,6 +70,10 @@
     UIViewController *rootViewController = (UITabBarController *)app.keyWindow.rootViewController;
     if (rootViewController.presentedViewController == self) {
         return;
+    } else if (rootViewController.presentedViewController) {
+        [rootViewController dismissViewControllerAnimated:YES completion:^{
+            [self present];
+        }];
     }
     
     //take snapshot of root view and set as background:
@@ -85,8 +90,10 @@
 - (void)callStartedWithParams:(NSDictionary *)params incoming:(BOOL)incoming
 {
     [self present];
+    if (incoming && !self.mainText.length) {
+        self.mainText = params[@"From"] ?: @"unknown";
+    }
  	self.callStatusLabel.text = incoming ? @"incoming call" : @"connecting...";
-    self.mainText             = incoming ? params[@"From"]  : @"";
     [self switchToPad:incoming ? self.incomingPad : self.mainPad
              animated:NO];
     
