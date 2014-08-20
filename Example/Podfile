@@ -1,5 +1,5 @@
 target 'PhoneKitDemo', :exclusive => true do
-  pod "TwilioSDK", :path => "~/Code/twilioclient-ios-sdk/"
+  pod "TwilioSDK"
   pod "PhoneKit", :path => "../"
   pod "AFNetworking"
 end
