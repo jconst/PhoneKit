@@ -1,6 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <AudioToolbox/AudioToolbox.h>
-#import <AVFoundation/AVFoundation.h>
 #import "ReactiveCocoa.h"
 #import "TwilioClient.h"
 #import "PKTCallRecord.h"
@@ -23,7 +21,7 @@ typedef NS_ENUM(NSUInteger, IncomingCallResponse) {
 @property (nonatomic, weak            ) id             delegate;
 
 @property (nonatomic, strong          ) NSString       *capabilityToken;
-@property (nonatomic, strong          ) NSString       *callerID;
+@property (nonatomic, strong          ) NSString       *callerId;
 @property (nonatomic, assign          ) BOOL           muted;
 @property (nonatomic, assign          ) BOOL           speakerEnabled;
 @property (nonatomic, strong, readonly) NSArray        *presenceContactsExceptMe;
@@ -38,8 +36,8 @@ typedef NS_ENUM(NSUInteger, IncomingCallResponse) {
 
 + (instancetype)sharedPhone;
 
-- (void)call;
-- (void)callWithParams:(NSDictionary *)params;
+- (void)call:(NSString *)callee;
+- (void)call:(NSString *)callee withParams:(NSDictionary *)params;
 - (void)sendDigits:(NSString *)digitsString;
 - (void)hangup;
 

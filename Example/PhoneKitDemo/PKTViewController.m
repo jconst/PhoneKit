@@ -12,8 +12,9 @@
 #import "PKTPhone.h"
 #import "PKTCallViewController.h"
 
-#define kBasicPhoneBaseURL @"https://demo.twilio.com/chunder/TwilioPhone"
-#define kLoginEndpoint @"auth/token.php"
+#warning replace with the URL of your server
+#define kBasicPhoneBaseURL @"https://tcs.ngrok.com"
+#define kLoginEndpoint @"auth.php"
 
 @interface PKTViewController ()
 
@@ -30,19 +31,13 @@
 
     NSURL *baseURL = [NSURL URLWithString:kBasicPhoneBaseURL];
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
-    //    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    //    manager.responseSerializer.acceptableContentTypes =
-    //        [manager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
     
-    
-    [manager GET:kLoginEndpoint parameters:@{@"clientName": @"basic", @"version": @"1"}
-         success:^(AFHTTPRequestOperation *operation, id responseObject) {
-             //NSString *token = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
-             [self setupPhoneKitWithToken:responseObject[@"token"]];
-         } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-             NSLog(@"error: %@", error);
-         }];
-    
+    [manager GET:kLoginEndpoint parameters:@{@"clientName": @"demo"}
+    success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [self setupPhoneKitWithToken:responseObject[@"token"]];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error: %@", error);
+    }];
 }
 
 - (void)setupPhoneKitWithToken:(NSString *)token
@@ -55,8 +50,8 @@
 
 - (void)didTapCall:(id)sender
 {
-    [[PKTPhone sharedPhone] callWithParams:@{@"to": @"jconstantakis",
-                                             @"type": @"client"}];
+#warning replace with a verified phone number, or another client name
+    [[PKTPhone sharedPhone] call:@""];
 }
 
 @end

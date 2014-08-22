@@ -1,5 +1,6 @@
 #import "PKTPhone.h"
 #import <AudioToolbox/AudioServices.h>
+#import <AVFoundation/AVFoundation.h>
 #import "RACEXTScope.h"
 #import "PKTCallRecord.h"
 #import "NSString+PKTHelpers.h"
@@ -86,17 +87,23 @@
 
 #pragma mark - Calls
 
--(void)call
+-(void)call:(NSString *)callee
 {
-    [self callWithParams:nil];
+    [self call:callee withParams:nil];
 }
 
-- (void)callWithParams:(NSDictionary *)params
+- (void)call:(NSString *)callee withParams:(NSDictionary *)params
 {
     if (!(self.phoneDevice && self.capabilityToken)) {
         NSLog(@"Error: You must set PKTPhone's capability token before you make a call");
+        return;
     }
     
+    NSMutableDictionary *connectParams = [params mutableCopy];
+    if (callee.length)
+        connectParams[@"callee"] = callee;
+    if (self.callerId.length)
+        connectParams[@"callerId"] = self.callerId;
     self.activeConnection = [self.phoneDevice connect:params delegate:self];
     
     if ([self.delegate respondsToSelector:@selector(callStartedWithParams:incoming:)]) {
@@ -140,7 +147,7 @@
         record.state  = connection.parameters[@"FromCountry"];
         record.missed = connection != self.activeConnection;
     } else {
-        record.number = connection.parameters[@"to"];
+        record.number = connection.parameters[@"callee"];
         record.city   = nil;
         record.state  = nil;
     }
