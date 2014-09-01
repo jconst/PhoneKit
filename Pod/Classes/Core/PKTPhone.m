@@ -99,16 +99,16 @@
         return;
     }
     
-    NSMutableDictionary *connectParams = [params mutableCopy];
+    NSMutableDictionary *connectParams = [NSMutableDictionary dictionaryWithDictionary:params];
     if (callee.length)
         connectParams[@"callee"] = callee;
     if (self.callerId.length)
         connectParams[@"callerId"] = self.callerId;
-    self.activeConnection = [self.phoneDevice connect:params delegate:self];
+    self.activeConnection = [self.phoneDevice connect:connectParams delegate:self];
     
     if ([self.delegate respondsToSelector:@selector(callStartedWithParams:incoming:)]) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self.delegate callStartedWithParams:params incoming:NO];
+            [self.delegate callStartedWithParams:connectParams incoming:NO];
         });
     }
 }

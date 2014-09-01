@@ -25,76 +25,16 @@ PODS:
     - libPhoneNumber-iOS
   - Kiwi (2.3.0)
   - libPhoneNumber-iOS (0.7.3)
-  - milenage-twilio (2.2.1)
-  - OpenSSL-twilio (1.0.1.h)
-  - opus-twilio (2.2.1):
-    - opus-twilio/float
-  - opus-twilio/float (2.2.1)
-  - PhoneKit (0.1.0):
+  - PhoneKit (0.1.2):
     - PhoneKit/Core
     - PhoneKit/UI
-  - PhoneKit/Core (0.1.0):
+  - PhoneKit/Core (0.1.2):
     - ReactiveCocoa
     - TwilioSDK
-  - PhoneKit/UI (0.1.0):
+  - PhoneKit/UI (0.1.2):
     - FontasticIcons
     - JCDialPad
     - PhoneKit/Core
-  - pjsip-twilio (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - pjsip-twilio/Core
-    - pjsip-twilio/pjlib
-    - pjsip-twilio/pjlib-util
-    - pjsip-twilio/pjmedia
-    - pjsip-twilio/pjnath
-    - pjsip-twilio/pjsip
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/Core (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/pjlib (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/pjlib-util (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/pjmedia (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/pjnath (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
-  - pjsip-twilio/pjsip (2.2.1):
-    - milenage-twilio (= 2.2.1)
-    - OpenSSL-twilio (= 1.0.1.h)
-    - opus-twilio (= 2.2.1)
-    - resample-twilio (= 2.2.1)
-    - speex-twilio (= 2.2.1)
-    - srtp-twilio (= 2.2.1)
   - ReactiveCocoa (2.3.1):
     - ReactiveCocoa/UI
   - ReactiveCocoa/Core (2.3.1):
@@ -102,49 +42,26 @@ PODS:
   - ReactiveCocoa/no-arc (2.3.1)
   - ReactiveCocoa/UI (2.3.1):
     - ReactiveCocoa/Core
-  - resample-twilio (2.2.1)
-  - speex-twilio (2.2.1)
-  - srtp-twilio (2.2.1):
-    - OpenSSL-twilio (= 1.0.1.h)
-  - TCAsyncSocket (1.0.0)
-  - TCCommonAssets (1.0.0)
-  - TCGTMBase64 (1.0.0)
-  - TwilioSDK (1.2.0):
-    - pjsip-twilio (~> 2.2.1)
-    - TCAsyncSocket
-    - TCCommonAssets
-    - TCGTMBase64
+  - TwilioSDK (1.1.5)
 
 DEPENDENCIES:
   - AFNetworking
   - Kiwi
   - PhoneKit (from `../`)
-  - TwilioSDK (from `~/Code/twilioclient-ios-sdk/`)
+  - TwilioSDK
 
 EXTERNAL SOURCES:
   PhoneKit:
     :path: ../
-  TwilioSDK:
-    :path: ~/Code/twilioclient-ios-sdk/
 
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
   FontasticIcons: a19672f86f2bf1b0ad51b21f1f7f1fad1ddd83f7
-  JCDialPad: b33bdc4bf3612efcc9f7ae957edd60ebcd29e7bc
+  JCDialPad: 0b3dc3175b376f765dd1b47c39ed19e4ed36f326
   Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
   libPhoneNumber-iOS: 98fc07d70c8fdb5e6a8e3442c37e97353065c20e
-  milenage-twilio: bbdcca3d2f68b70dd95eb28706828b5c921ebbdf
-  OpenSSL-twilio: dd78a592f0f0397fa4ab41de2a7ca76aefe5eea3
-  opus-twilio: 55fe25e0ae7c33554853b60baf4f488b59514f42
-  PhoneKit: 16a9e9f3087b32a05d6e96c167795eaba9e77cba
-  pjsip-twilio: 710558808a9dba4677586d79799a08e39d5769d0
+  PhoneKit: 04d74e882c63a4fe7fe77b28c60be7a340bad959
   ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
-  resample-twilio: 47299e529a6d950d821f281cfb01cf88694b8cfc
-  speex-twilio: fe51c2b359856455dd1f84cb0208ea163764db3c
-  srtp-twilio: 115b6940b6ff572c0201dcf66e50c1f06038f790
-  TCAsyncSocket: 21d2d25a50e6ba3616e8053b39d2dfca36ae2dc9
-  TCCommonAssets: 0f294d3f0c4c5f6cb055ef42cf9583032260178d
-  TCGTMBase64: 861565fa29a2f2e0c588d9a98437c42996cbdcc8
-  TwilioSDK: 53cf8fef4d2d8443bbe791fc8085ea78a5bbc185
+  TwilioSDK: deeeebd032759205c8e7b8c0854caf25e0f80f76
 
 COCOAPODS: 0.33.1

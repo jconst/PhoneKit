@@ -13,7 +13,7 @@
 #import "PKTCallViewController.h"
 
 #warning replace with the URL of your server
-#define kBasicPhoneBaseURL @"https://tcs.ngrok.com"
+#define kBasicPhoneBaseURL @"https://twilio-client-server.herokuapp.com"
 #define kLoginEndpoint @"auth.php"
 
 @interface PKTViewController ()
@@ -43,6 +43,11 @@
 - (void)setupPhoneKitWithToken:(NSString *)token
 {
     [PKTPhone sharedPhone].capabilityToken = token;
+    NSLog(@"Token has been set with capabilities: %@", [PKTPhone sharedPhone].phoneDevice.capabilities);
+
+    #warning to make outgoing calls, set callerId to a verified phone number
+    //[PKTPhone sharedPhone].callerId = @"+15552345678";
+
     self.callViewController = [PKTCallViewController new];
     self.callViewController.mainText = @"Support";
     [PKTPhone sharedPhone].delegate = self.callViewController;
