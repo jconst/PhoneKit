@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaY-sd-F4N">
-                                <rect key="frame" x="0.0" y="110" width="320" height="54"/>
+                                <rect key="frame" x="0.0" y="200" width="320" height="54"/>
                                 <color key="backgroundColor" red="0.12714523062490368" green="0.34326189380406008" blue="0.61436396059782616" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="cUl-8f-SrR"/>
+                                    <constraint firstAttribute="height" constant="54" id="lwX-lG-O8D"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Call Support">
+                                <state key="normal" title="Call">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -32,14 +32,46 @@
                                     <action selector="didTapCall:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DvF-4X-sHe"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Callee" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tla-fr-P63">
+                                <rect key="frame" x="0.0" y="40" width="320" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.65911913465011973" green="0.86884167729591844" blue="0.59241536186957622" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="m4H-OC-60h"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Caller Id" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TGp-mB-YPv">
+                                <rect key="frame" x="0.0" y="120" width="320" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.65911913470000005" green="0.86884167729999995" blue="0.59241536189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="sc1-mp-Vny"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="gaY-sd-F4N" secondAttribute="trailing" id="TPV-p2-PVr"/>
-                            <constraint firstItem="gaY-sd-F4N" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="90" id="dn0-p6-Xbk"/>
-                            <constraint firstItem="gaY-sd-F4N" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="hTN-2s-u9j"/>
+                            <constraint firstItem="TGp-mB-YPv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="E0Z-XF-La8"/>
+                            <constraint firstItem="Tla-fr-P63" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="NaF-dV-V6A"/>
+                            <constraint firstItem="gaY-sd-F4N" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="QJC-nv-ryj"/>
+                            <constraint firstItem="gaY-sd-F4N" firstAttribute="top" secondItem="TGp-mB-YPv" secondAttribute="bottom" constant="26" id="QMA-4U-Zjq"/>
+                            <constraint firstAttribute="trailing" secondItem="TGp-mB-YPv" secondAttribute="trailing" id="RsD-tE-qcg"/>
+                            <constraint firstItem="Tla-fr-P63" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="UUJ-6Q-2w3"/>
+                            <constraint firstItem="TGp-mB-YPv" firstAttribute="top" secondItem="Tla-fr-P63" secondAttribute="bottom" constant="26" id="VNt-BR-o0X"/>
+                            <constraint firstAttribute="trailing" secondItem="Tla-fr-P63" secondAttribute="trailing" id="avf-H7-EqQ"/>
+                            <constraint firstAttribute="trailing" secondItem="gaY-sd-F4N" secondAttribute="trailing" id="ktr-Uv-31q"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calleeField" destination="Tla-fr-P63" id="zU5-LU-ejz"/>
+                        <outlet property="callerIdField" destination="TGp-mB-YPv" id="XGV-LH-OOa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

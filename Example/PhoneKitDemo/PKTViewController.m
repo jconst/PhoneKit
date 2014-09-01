@@ -11,6 +11,7 @@
 #import "AFNetworking.h"
 #import "PKTPhone.h"
 #import "PKTCallViewController.h"
+#import "NSString+PKTHelpers.h"
 
 #warning replace with the URL of your server
 #define kBasicPhoneBaseURL @"https://twilio-client-server.herokuapp.com"
@@ -45,18 +46,25 @@
     [PKTPhone sharedPhone].capabilityToken = token;
     NSLog(@"Token has been set with capabilities: %@", [PKTPhone sharedPhone].phoneDevice.capabilities);
 
-    #warning to make outgoing calls, set callerId to a verified phone number
-    //[PKTPhone sharedPhone].callerId = @"+15552345678";
-
     self.callViewController = [PKTCallViewController new];
-    self.callViewController.mainText = @"Support";
+    self.callViewController.mainText = [@"Calling " stringByAppendingString:self.calleeField.text];
     [PKTPhone sharedPhone].delegate = self.callViewController;
 }
 
 - (void)didTapCall:(id)sender
 {
-#warning replace with a verified phone number, or another client name
-    [[PKTPhone sharedPhone] call:@""];
+    if (self.calleeField.text.length &&
+        !self.callerIdField.text.length &&
+        ![self.calleeField.text isClientNumber]) {
+        [[[UIAlertView alloc] initWithTitle:@"Set a caller id first"
+                                    message:@"To call a real phone, you need to set the caller id "
+                                             "(to a number verified for your Twilio account) first."
+                                   delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+        return;
+    }
+    
+    [PKTPhone sharedPhone].callerId = self.callerIdField.text;
+    [[PKTPhone sharedPhone] call:self.calleeField.text];
 }
 
 @end

@@ -10,4 +10,7 @@
 
 @interface PKTViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *calleeField;
+@property (strong, nonatomic) IBOutlet UITextField *callerIdField;
+
 @end
