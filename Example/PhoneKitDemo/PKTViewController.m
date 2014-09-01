@@ -47,7 +47,6 @@
     NSLog(@"Token has been set with capabilities: %@", [PKTPhone sharedPhone].phoneDevice.capabilities);
 
     self.callViewController = [PKTCallViewController new];
-    self.callViewController.mainText = [@"Calling " stringByAppendingString:self.calleeField.text];
     [PKTPhone sharedPhone].delegate = self.callViewController;
 }
 
@@ -63,6 +62,7 @@
         return;
     }
     
+    self.callViewController.mainText = self.calleeField.text;
     [PKTPhone sharedPhone].callerId = self.callerIdField.text;
     [[PKTPhone sharedPhone] call:self.calleeField.text];
 }
