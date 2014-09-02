@@ -1,6 +1,10 @@
 # PhoneKit
 
-PhoneKit is an easy to use extension/wrapper of the Twilio Client iOS SDK for easily making/receiving VoIP calls from inside your iOS app. PhoneKit provides:
+PhoneKit is an easy to use extension/wrapper of the Twilio Client iOS SDK for easily making/receiving VoIP calls from inside your iOS app.
+
+<img src="demo1.gif" width=40% />
+
+## Features
 
 - a simple API for making calls to real phones or other clients
 - a full-featured modal view controller to allow your users to interact with the call
@@ -8,8 +12,6 @@ PhoneKit is an easy to use extension/wrapper of the Twilio Client iOS SDK for ea
 - a property to set the caller ID
 - a call record object containing useful information about a past call
 - useful helper methods on NSString for dealing with phone numbers
-
-<img src="demo1.gif" width=40% />
 
 ## Server
 
