@@ -139,7 +139,7 @@
 {
     PKTCallRecord *record = [PKTCallRecord new];
     record.incoming   = connection.incoming;
-    record.startTime  = [NSDate date];
+    record.startTime  = [NSDate dateWithTimeIntervalSinceNow:-self.callDuration];
     record.duration   = self.callDuration;
     if (record.incoming) {
         record.number = connection.parameters[@"From"];
