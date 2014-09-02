@@ -14,14 +14,8 @@
 #import "NSString+PKTHelpers.h"
 
 #warning replace with the URL of your server
-#define kBasicPhoneBaseURL @"https://twilio-client-server.herokuapp.com"
-#define kLoginEndpoint @"auth.php"
-
-@interface PKTViewController ()
-
-@property (strong, nonatomic) PKTCallViewController *callViewController;
-
-@end
+#define kServerBaseURL @"https://twilio-client-server.herokuapp.com"
+#define kTokenEndpoint @"auth.php"
 
 @implementation PKTViewController
 
@@ -30,10 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    NSURL *baseURL = [NSURL URLWithString:kBasicPhoneBaseURL];
+    NSURL *baseURL = [NSURL URLWithString:kServerBaseURL];
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
     
-    [manager GET:kLoginEndpoint parameters:@{@"clientName": @"demo"}
+    [manager GET:kTokenEndpoint parameters:@{@"clientName": @"demo"}
     success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [self setupPhoneKitWithToken:responseObject[@"token"]];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

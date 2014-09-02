@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class PKTCallViewController;
+
 @interface PKTViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITextField *calleeField;
 @property (strong, nonatomic) IBOutlet UITextField *callerIdField;
+@property (strong, nonatomic) PKTCallViewController *callViewController;
 
 @end
