@@ -1,5 +1,7 @@
 # PhoneKit
 
+<img src="demo1.gif" width=60% />
+
 [![CI Status](http://img.shields.io/travis/Joseph Constantakis/PhoneKit.svg?style=flat)](https://travis-ci.org/Joseph Constantakis/PhoneKit)
 [![Version](https://img.shields.io/cocoapods/v/PhoneKit.svg?style=flat)](http://cocoadocs.org/docsets/PhoneKit)
 [![License](https://img.shields.io/cocoapods/l/PhoneKit.svg?style=flat)](http://cocoadocs.org/docsets/PhoneKit)
