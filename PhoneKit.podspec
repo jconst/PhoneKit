@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PhoneKit"
-  s.version          = "0.1.2"
+  s.version          = "0.2.0"
   s.summary          = "An extension of TwilioSDK for easily making & receiving VoIP calls from inside your iOS app!"
   s.homepage         = "https://github.com/jconst/PhoneKit"
   s.license          = 'MIT'
