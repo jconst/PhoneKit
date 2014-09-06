@@ -57,9 +57,11 @@ Make a call!
 [[PKTPhone sharedPhone] call:@"1 555-234-5678"];
 ```
 
+To see what else you can do using PhoneKit, check out the example project and the class headers. And if you'd like to build your own custom views that are aesthetically consistent with PhoneKit, check out the library that the UI is built on: [JCDialPad](https://github.com/jconst/JCDialPad).
+
 ## Author
 
-Joseph Constantakis, jconstantakis@twilio.com
+Joseph Constantakis, jcon5294@gmail.com. Feel free to email me or open up a GitHub issue if you have any questions!
 
 ## License
 
