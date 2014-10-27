@@ -1,11 +1,5 @@
-target 'PhoneKitDemo', :exclusive => true do
-  pod "TwilioSDK"
-  pod "PhoneKit", :path => "../"
-  pod "AFNetworking"
-end
+source 'https://github.com/CocoaPods/Specs.git'
 
-target 'Tests', :exclusive => true do
-  pod "PhoneKit", :path => "../"
+pod "PhoneKit"
+pod "AFNetworking"
 
-  pod 'Kiwi'
-end
