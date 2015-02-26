@@ -21,7 +21,7 @@ Unfortunately, the Twilio Client SDK requires all client-side apps to have a cus
 
 ## Demo
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first. Then, change the value of `kServerBaseURL` at the top of `PKTViewController.m` to point to `auth.php` on your server.
+To run the example project, first clone the repo. Then, change the value of `kServerBaseURL` at the top of `PKTViewController.m` to point to `auth.php` on your server. If you have issues with cocoapods, try running `pod install` in the Example directory.
 
 After starting the app, you can press "Call" immediately to hear a simple demo message. To call a real phone, you must first set the caller ID field to a number you have [verified with Twilio](https://www.twilio.com/user/account/phone-numbers/verified). Then simply type the callee's phone number (don't worry about the formatting) into the Callee text field and press Call.
 
