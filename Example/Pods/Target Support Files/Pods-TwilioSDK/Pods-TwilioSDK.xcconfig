@@ -1,0 +1,2 @@
+PODS_TWILIOSDK_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/TwilioSDK/Libraries" "$(PODS_ROOT)/TwilioSDK/Libraries" "$(PODS_ROOT)/TwilioSDK/Libraries"
+PODS_TWILIOSDK_OTHER_LDFLAGS = -l"TwilioClient" -l"crypto" -l"ssl" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "SystemConfiguration"

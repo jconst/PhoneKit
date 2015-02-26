@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FontasticIcons (0.5.0)
+  - JCDialPad (0.1.1):
+    - libPhoneNumber-iOS
+  - libPhoneNumber-iOS (0.8.3)
+  - PhoneKit (0.2.0):
+    - PhoneKit/Core (= 0.2.0)
+    - PhoneKit/UI (= 0.2.0)
+  - PhoneKit/Core (0.2.0):
+    - ReactiveCocoa
+    - TwilioSDK
+  - PhoneKit/UI (0.2.0):
+    - FontasticIcons
+    - JCDialPad
+    - PhoneKit/Core
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - TwilioSDK (1.2.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - PhoneKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  FontasticIcons: a19672f86f2bf1b0ad51b21f1f7f1fad1ddd83f7
+  JCDialPad: 0b3dc3175b376f765dd1b47c39ed19e4ed36f326
+  libPhoneNumber-iOS: 640f078c832d2ded97ae24134bc009c3300686e3
+  PhoneKit: 5d68e2c8d07114ddd119fb6a7849ec7515725c86
+  ReactiveCocoa: 313fc53cc9aeb2bbbc3f5f13c7eac16478d9af8f
+  TwilioSDK: 5b240022a8ea6df684b3f7bc36c6dd83e28ce4e8
+
+COCOAPODS: 0.35.0
